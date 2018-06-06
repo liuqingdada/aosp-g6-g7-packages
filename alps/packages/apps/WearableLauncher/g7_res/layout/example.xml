@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <com.mstarc.wearablelauncher.view.common.RippleLayout
+        android:id="@+id/ripple_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:duration="3000"
+        app:radius="32dp"
+        app:rippleNums="3"
+        app:scale="1.3"
+        app:color="@color/colorAccent" >
+
+        <com.mstarc.wearablelauncher.view.common.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/centerImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:civ_fill_color="@color/colorAccent"
+            android:src="@drawable/ic_qs1_flightmode_disable"
+            />
+    </com.mstarc.wearablelauncher.view.common.RippleLayout>
+
+</LinearLayout>

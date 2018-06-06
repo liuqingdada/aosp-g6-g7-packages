@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mstarc.wearablelauncher.view.fte.FteViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fte"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/fte_1_qr_promotion"
+        android:id="@+id/fte_qr_promotion"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/fte_2_qr"
+        android:id="@+id/fte_qr"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/fte_3_app_promotion"
+        android:visibility="gone" />
+
+
+    <include
+        layout="@layout/fte_4_pw_input"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/fte_5_pw_input_again"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/fte_6_pw_success"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/fte_7_app_promotion"
+        android:visibility="gone" />
+
+
+    <include
+        layout="@layout/fte_8_data_sync"
+        android:visibility="gone" />
+
+</com.mstarc.wearablelauncher.view.fte.FteViewGroup>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/talking_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/image_talking_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_phone_status_watch" />
+
+        <ImageView
+            android:id="@+id/image_talking_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image_talking_watch"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="42dp"
+            android:src="@drawable/ic_phone_status_phone" />
+
+        <ImageView
+            android:id="@+id/image_talking_profile"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_phone_people_profile_ring" />
+
+        <TextView
+            android:id="@+id/text_talking_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_talking_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="@string/name_demo"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/talking_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_talking_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/talking_time_demo"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/image_talking_keypad_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="36dp"
+            android:layout_toLeftOf="@+id/image_talking_teminate"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_talking_dialpan" />
+
+        <ImageButton
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:id="@+id/image_talking_teminate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_teminate" />
+
+        <ImageButton
+            android:id="@+id/image_talking_volume_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="36dp"
+            android:layout_toRightOf="@+id/image_talking_teminate"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_talking_volume_button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/talking_volume"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#b000"
+        android:layout_marginBottom="80dp"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/talking_volume_dec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_talking_volume_dec" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:progress="60"
+            android:progressDrawable="@drawable/volume_progress" />
+
+        <ImageButton
+            android:id="@+id/talking_volume_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="2dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_talking_volume_add" />
+    </RelativeLayout>
+
+    <include
+        layout="@layout/keypad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

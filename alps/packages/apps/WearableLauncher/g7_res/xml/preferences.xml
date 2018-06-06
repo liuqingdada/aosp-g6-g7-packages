@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<PreferenceScreen-->
+    <!--android:title="screen"-->
+    <!--&gt;-->
+    <!--<CheckBoxPreference-->
+    <!--android:defaultValue="false"-->
+    <!--android:key="check_box_preference_1"-->
+    <!--android:title="Check box preference" />-->
+    <!--<EditTextPreference-->
+    <!--android:defaultValue="Default value"-->
+    <!--android:key="edit_text_preference_1"-->
+    <!--android:selectAllOnFocus="true"-->
+    <!--android:singleLine="true"-->
+    <!--android:title="Edit text preference" />-->
+    <!--<SwitchPreference-->
+    <!--android:defaultValue="false"-->
+    <!--android:key="switch_preference_1"-->
+    <!--android:title="Switch preference" />-->
+    <!--</PreferenceScreen>-->
+    <PreferenceScreen
+        android:layout="@layout/setting_detail_header"
+        android:title="@string/setting_detail_network">
+        <Preference
+            android:layout="@layout/setting_detail_second_arrow"
+            android:title="@string/setting_detail_network_wifi" />
+        <Preference
+            android:layout="@layout/setting_detail_second_arrow"
+            android:title="@string/setting_detail_network_communicate" />
+        <Preference
+            android:layout="@layout/setting_detail_second_arrow"
+            android:title="@string/setting_detail_network_bluetooth" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:layout="@layout/setting_detail_header"
+        android:title="@string/setting_detail_time"></PreferenceScreen>
+    <PreferenceScreen
+        android:layout="@layout/setting_detail_header"
+        android:title="@string/setting_detail_security">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="setting_detail_preference_push"
+            android:title="@string/setting_detail_preference_push" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="setting_detail_preference_weak_light"
+            android:title="@string/setting_detail_preference_weak_light" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="setting_detail_preference_knock_open_screen"
+            android:title="@string/setting_detail_preference_knock_open_screen" />
+        <Preference
+            android:layout="@layout/setting_detail_second_arrow"
+            android:key="setting_detail_preference_voice"
+            android:title="@string/setting_detail_preference_voice" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:layout="@layout/setting_detail_header"
+        android:title="@string/setting_detail_preference"></PreferenceScreen>
+    <PreferenceScreen
+        android:layout="@layout/setting_detail_header"
+        android:title="@string/setting_detail_update"></PreferenceScreen>
+    <PreferenceScreen
+        android:layout="@layout/setting_detail_header"
+        android:title="@string/setting_detail_reset"></PreferenceScreen>
+    <PreferenceScreen
+        android:layout="@layout/setting_detail_header"
+        android:title="@string/setting_detail_about"></PreferenceScreen>
+
+
+</PreferenceScreen>

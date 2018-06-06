@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:paddingBottom="20dp"
+    android:minHeight="72dp">
+    <TextView
+        android:id="@+id/fuck"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/msg_chat_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/msg_chat_contact"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:lines="1"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="@string/contract_demo2"
+        android:textSize="24sp"
+        android:layout_alignEnd="@+id/fuck" />
+    <TextView
+        android:id="@+id/msg_chat_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/msg_time_demo"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/msg_chat_date"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/msg_chat_time"
+        android:layout_alignLeft="@+id/msg_chat_time"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="@string/msg_date_demo" />
+
+    <TextView
+        android:id="@+id/msg_chat_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/msg_chat_demo2"
+        android:textSize="24sp"
+        android:layout_below="@+id/msg_chat_profile" />
+
+
+</RelativeLayout>

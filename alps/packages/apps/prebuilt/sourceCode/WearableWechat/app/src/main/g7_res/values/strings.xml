@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">WearWechat</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="demo_qrcode_login">请用微信扫描登陆</string>
+    <string name="demo_qrcode_login_prompt_1">请用手机微信扫描</string>
+    <string name="demo_qrcode_login_prompt_2">二维码进行登陆</string>
+    <string name="msg_demo1">林总，客户等着要报价</string>
+    <string name="msg_demo2">今天准备一下明天开会的资料</string>
+    <string name="contract_demo1">13656886388</string>
+    <string name="contract_demo2">老吴</string>
+    <string name="msg_chat_demo1">要报销的票据12号前给我。</string>
+    <string name="msg_chat_demo2">好的</string>
+    <string name="msg_time_demo">10:20</string>
+    <string name="msg_date_demo">02/20</string>
+    <string name="msg_voice_hint">请说出您要发送的内容</string>
+    <string name="msg_voice_content_demo">好的</string>
+    <string name="msg_clean_all">清空信息？</string>
+    <string name="msg_no_message">无短信</string>
+    <string name="name_demo">张三丰"</string>
+
+    <string-array name="record_name_demo_list">
+        <item>李万年</item>
+        <item>李大力</item>
+        <item>刘金男</item>
+        <item>李万年</item>
+        <item>张三丰</item>
+        <item>贺知章</item>
+    </string-array>
+</resources>

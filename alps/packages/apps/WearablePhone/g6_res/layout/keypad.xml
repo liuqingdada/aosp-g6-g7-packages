@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keypad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#b000">
+
+    <TextView
+        android:id="@+id/dial_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:minHeight="22sp"
+        android:text="@string/number_demo"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dial_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/list_divider" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent">
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_gravity="start|top"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_1" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_2" />
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_gravity="end|top"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_3" />
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_column="0"
+            android:layout_gravity="start|center_vertical"
+            android:layout_row="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_4" />
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_row="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_5" />
+
+        <ImageButton
+            android:id="@+id/button6"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|end"
+            android:layout_row="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_6" />
+
+        <ImageButton
+            android:id="@+id/button7"
+            android:layout_column="0"
+            android:layout_gravity="start|top"
+            android:layout_row="2"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_7" />
+
+        <ImageButton
+            android:id="@+id/button8"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_row="2"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_8" />
+
+        <ImageButton
+            android:id="@+id/button9"
+            android:layout_column="2"
+            android:layout_gravity="end|top"
+            android:layout_row="2"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_9" />
+
+        <ImageButton
+            android:id="@+id/buttonstar"
+            android:layout_column="0"
+            android:layout_gravity="start|top"
+            android:layout_row="3"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_star" />
+
+        <ImageButton
+            android:id="@+id/button0"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_row="3"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_0" />
+
+        <ImageButton
+            android:id="@+id/buttonhex"
+            android:layout_column="2"
+            android:layout_gravity="end|top"
+            android:layout_row="3"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_phone_dial_hex" />
+
+
+    </GridLayout>
+
+
+</RelativeLayout>

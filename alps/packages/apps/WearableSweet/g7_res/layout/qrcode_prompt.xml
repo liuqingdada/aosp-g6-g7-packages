@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layout_tip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/help_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:text="@string/demo_qrcode_login_prompt"
+        android:textColor="@color/activity_text_female"
+        android:textSize="26sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="@string/demo_qrcode_login_prompt_1"
+        android:textColor="@color/activity_text_color"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="@string/demo_qrcode_login_prompt_2"
+        android:textColor="@color/activity_text_color"
+        android:textSize="24sp"
+        />
+</LinearLayout>

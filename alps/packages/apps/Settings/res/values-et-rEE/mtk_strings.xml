@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">Pääsupunkti ja jagamise seaded</string>
+    <string name="tethered_ipv4v6">(IPv6 saadaval)</string>
+    <string name="tethered_ipv6">(Saadaval on ainult IPv6)</string>
+    <string name="tethered_ipv4">(IPv6 kättesaamatu)</string>
+    <string name="bluetooth_advanced_settings">"Täpsemad seaded"</string>
+    <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA kasutamiseks lülita lennurežiim välja</string>
+    <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA kasutamiseks pead sisestama SIM-kaardi</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA kasutamiseks pead valima SIM-pesa</string>
+    <string name="sim_slot">SIM-Pesa</string>
+    <string name="wapi_user_certificate">Kasutaja sertifikaat</string>
+    <string name="wapi_as_certificate">ASE sertifikaat</string>
+    <string name="wifi_hex_password">Kuuteistkümnendsüsteemi parool.</string>
+    <string name="wifi_no_cert_for_wapi">Praeguse ühenduse AP jaoks ei leitud sertifikaati.</string>
+    <string name="wifi_security_wapi_certificate">WAPI sertifikaat</string>
+</resources>

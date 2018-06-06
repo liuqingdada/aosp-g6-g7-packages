@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">Configuració de zona de connexió i ancoratge</string>
+    <string name="tethered_ipv4v6">(IPv6 disponible)</string>
+    <string name="tethered_ipv6">(Només disponible IPv6)</string>
+    <string name="tethered_ipv4">(IPv6 no disponible)</string>
+    <string name="bluetooth_advanced_settings">"Configuració avançada"</string>
+    <string name="eap_sim_aka_airplanemode">Desactiva el mode de vol per utilitzar l’EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_error">Has d’introduir una targeta SIM per utilitzar l’EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">Has de seleccionar una ranura SIM per utilitzar l’EAP-SIM/AKA</string>
+    <string name="sim_slot">Ranura de la SIM</string>
+    <string name="wapi_user_certificate">"Certificat d'usuari"</string>
+    <string name="wapi_as_certificate">Certificat ASE</string>
+    <string name="wifi_hex_password">Contrasenya hexadecimal.</string>
+    <string name="wifi_no_cert_for_wapi">No s’ha pogut trobar la certificació per a l’AP que s’està connectant en aquest moment</string>
+    <string name="wifi_security_wapi_certificate">Certificat WAPI</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wallpaper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thumbnail="@drawable/clock_bg_black"
+    android:description="@string/analog_name"
+    android:settingsActivity="anologclock.watchface.mstarc.anologclockwatchface.MainActivity" />

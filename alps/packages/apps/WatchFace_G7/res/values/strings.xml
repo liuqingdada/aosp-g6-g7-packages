@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WatchFace</string>
+    <string name="watchface_diary">摩洛哥</string>
+    <string name="watchface_diamond">金粉世家</string>
+    <string name="watchface_diamond_weather_shishidu">℃</string>
+    <string name="watchface_pink">甜蜜时刻</string>
+    <string name="watchface_xuanli">彩虹丽人</string>
+    <string name="watchface_ningmeng">夏日柠檬</string>
+    <string name="watchface_xingguang">星光熠熠</string>
+    <string name="watchface_goldride">黄金骑士</string>
+    <string name="watchface_aegean">爱琴海</string>
+    <string name="watchface_frag">夕雾</string>
+</resources>

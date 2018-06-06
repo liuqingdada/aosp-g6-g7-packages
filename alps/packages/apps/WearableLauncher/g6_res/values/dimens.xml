@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="settings_1st_height">16dp</dimen>
+    <dimen name="ic_clear_margin">10dp</dimen>
+    <dimen name="scrollbar_margin_left_setting">10dp</dimen>
+    <dimen name="scrollbar_margin_left_notification">6dp</dimen>
+    <dimen name="alipay_bar_width">320dp</dimen>
+    <dimen name="alipay_bar_height">150dp</dimen>
+    <dimen name="alipay_qr_width">300dp</dimen>
+    <dimen name="alipay_qr_height">300dp</dimen>
+</resources>

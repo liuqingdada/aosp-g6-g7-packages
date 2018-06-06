@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_dial_out_watch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="54dp"
+        android:tint="?attr/themecolor"
+        android:src="@drawable/ic_phone_status_watch" />
+
+    <ImageView
+        android:id="@+id/image_dial_out_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="54dp"
+        android:tint="?attr/themecolor"
+        android:src="@drawable/ic_phone_status_phone" />
+
+    <com.mstarc.wearablephone.view.common.RippleLayout
+        android:id="@+id/ripple_layout"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:color="?attr/themecolor"
+        app:duration="2000"
+        app:radius="37dp"
+        app:rippleNums="2"
+        app:scale="1.2">
+
+        <ImageView
+            android:id="@+id/image_dial_out_profile"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/black_radius"
+            android:layout_margin="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_phone_default_profile_tinted" />
+    </com.mstarc.wearablephone.view.common.RippleLayout>
+
+
+    <TextView
+        android:id="@+id/text_dial_out_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ripple_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="@string/name_demo"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/image_dial_out_terminate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="onClick"
+        android:src="@drawable/ic_phone_deny" />
+
+
+</RelativeLayout>

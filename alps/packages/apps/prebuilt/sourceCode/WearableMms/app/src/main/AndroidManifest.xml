@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mstarc.wearablemms">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23"/>
+
+    <!-- <uses-feature -->
+    <!-- android:name="android.hardware.type.watch" -->
+    <!-- android:required="true" /> -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <!-- 连接网络权限，用于执行云端语音能力 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- 获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!-- 读取网络信息状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 获取当前wifi状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- 允许程序改变网络连接状态 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <!-- 读取手机信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 读取联系人权限，上传联系人需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <!-- <uses-permission android:name="android.permission.BROADCAST_SMS"/> -->
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.APP_MESSAGING"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:mimeType="vnd.android.cursor.dir/mms"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:mimeType="vnd.android-dir/mms-sms"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="mms"/>
+                <data android:scheme="mmsto"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BaseActivity"/>
+        <activity
+            android:name=".activity.AddContactAcivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".activity.ChooseContactAcivity"/>
+        <activity android:name=".activity.InputNumAcivity"/>
+        <activity android:name=".activity.VoiceActivity"/>
+        <activity android:name=".activity.MessageActivity"/>
+
+        <receiver
+            android:name=".receiver.SmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.MmsReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER"/>
+
+                <data android:mimeType="application/vnd.wap.mms-message"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".receiver.HeadlessSmsSendService"
+            android:exported="true"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+                <data android:scheme="mms"/>
+                <data android:scheme="mmsto"/>
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activity.JunkMmsActivity">
+        </activity>
+    </application>
+
+</manifest>

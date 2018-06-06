@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    
+    <string name="eap_sim_aka_airplanemode">请关闭飞行模式才能使用 EAP-SIM/AKA</string>
+    
+    <string name="eap_sim_aka_no_sim_error">您必须插入SIM卡才能使用 EAP-SIM/AKA</string>	
+    
+    <string name="eap_sim_aka_no_sim_slot_selected">您必须选择SIM卡槽才能使用 EAP-SIM/AKA</string>
+	<string name="sim_slot">SIM 卡槽</string>
+    
+    <string name="wapi_user_certificate">"用户证书"</string>	
+	
+    <string name="wapi_as_certificate">"ASE 证书"</string> 
+     
+    <string name="wifi_hex_password">"十六进制密码"</string>
+    
+    <string name="wifi_no_cert_for_wapi">未能找到正在连接的接入点的证书</string>
+    
+    
+    <string name="wifi_security_wapi_certificate">"WAPI 证书"</string>
+		
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">Կարգավորումներ մատչելիության տարածքի և համացանց բջջային հեռախոսի միջոցով մուտքի համար</string>
+    <string name="tethered_ipv4v6">(IPv6 մատչելի)</string>
+    <string name="tethered_ipv6">(Միայն IPv6 մատչելի)</string>
+    <string name="tethered_ipv4">(IPv6 անմատչելի)</string>
+    <string name="bluetooth_advanced_settings">"Ընդլայնված կարգավորումներ"</string>
+    <string name="eap_sim_aka_airplanemode">Խնդրում ենք անջատել Ինքնաթիռի ռեժիմը՝ օգտագործելու համար EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_error">Դուք պետք է զետեղեք sim քարտը, որպեսզի օգտագործեք EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">Դուք պետք է ընտրեք sim փորակը, որպեսզի օգտագործեք EAP-SIM/AKA</string>
+    <string name="sim_slot">SIM փորակ</string>
+    <string name="wapi_user_certificate">Օգտագործել վկայագիրը</string>
+    <string name="wapi_as_certificate">ASE վկայագիր</string>
+    <string name="wifi_hex_password">Տասնվեցական գաղտնաբառ:</string>
+    <string name="wifi_no_cert_for_wapi">Հնարավոր չեղավ հայտնաբերել վկայագրումը ընթացիկ կապակցվող AP-ի համար</string>
+    <string name="wifi_security_wapi_certificate">WAPI վկայագիր</string>
+</resources>

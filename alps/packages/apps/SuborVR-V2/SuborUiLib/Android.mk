@@ -1,0 +1,186 @@
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+###################### aar
+# google
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := appcompat-v7:libs/google/appcompat-v7-25.3.1.aar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += support-v4:libs/google/support-v4-25.3.1.aar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += support-compat:libs/google/support-compat-25.3.1.aar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += support-core-ui:libs/google/support-core-ui-25.3.1.aar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += support-core-utils:libs/google/support-core-utils-25.3.1.aar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += support-fragment:libs/google/support-fragment-25.3.1.aar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := multidex:libs/google/multidex-1.0.3.aar
+
+# common
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += cockroach:libs/common/cockroach-0.0.5.aar
+
+# http
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += rxandroid:libs/http/rxandroid-2.0.1.aar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += rxpermissions:libs/http/rxpermissions-0.9.4.aar
+
+# my libs
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += lib.communicate-release:libs/lib.communicate-release.aar
+
+##################### jar
+# google
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += support-annotations:libs/google/support-annotations-25.3.1.jar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += animated-vector-drawable:libs/google/animated-vector-drawable-25.3.1.jar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += support-vector-drawable:libs/google/support-vector-drawable-25.3.1.jar
+
+# http
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += adapter-rxjava:libs/http/adapter-rxjava2-2.3.0.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += converter-gson:libs/http/converter-gson-2.3.0.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += converter-scalars:libs/http/converter-scalars-2.3.0.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += logging-interceptor:libs/http/logging-interceptor-3.9.0.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += okhttp:libs/http/okhttp-3.9.0.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += okio:libs/http/okio-1.13.0.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += reactive-streams:libs/http/reactive-streams-1.0.1.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += retrofit2-rxjava2-adapter:libs/http/retrofit2-rxjava2-adapter-1.0.0.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += retrofit:libs/http/retrofit-2.3.0.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += rxjava:libs/http/rxjava-2.1.5.jar
+
+
+# common
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += bzip2:libs/common/bzip2.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += mirror:libs/common/mirror-1.6.1.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += sun:libs/common/sun.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += jzlib:libs/common/jzlib-1.1.3.jar
+
+# json
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += gson:libs/json/gson-2.8.2.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += jackson-annotations:libs/json/jackson-annotations-2.9.4.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += jackson-core:libs/json/jackson-core-2.9.4.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += jackson-databind:libs/json/jackson-databind-2.9.4.jar
+
+# netty
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += netty-all:libs/netty/netty-all-4.1.22.Final.jar
+
+# unity
+
+
+
+LOCAL_PACKAGE_NAME := WearableVRLib
+
+include $(BUILD_MULTI_PREBUILT)
+
+include $(CLEAR_VARS)
+
+#LOCAL_SRC_FILES :=  $(call all-java-files-under, java)
+
+
+#LOCAL_SRC_FILES :=  $(call all-java-files-under, java) \
+#    $(call all-java-files-under, javaB)
+
+#LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res_v7 \
+#    $(LOCAL_PATH)/res_vrtest
+
+# aar config
+#LOCAL_STATIC_JAVA_AAR_LIBRARIES := appcompat-v7
+#LOCAL_STATIC_JAVA_AAR_LIBRARIES += support-v4
+#LOCAL_STATIC_JAVA_AAR_LIBRARIES += support-compat
+#LOCAL_STATIC_JAVA_AAR_LIBRARIES += support-core-ui
+#LOCAL_STATIC_JAVA_AAR_LIBRARIES += support-core-utils
+#LOCAL_STATIC_JAVA_AAR_LIBRARIES += support-fragment
+LOCAL_STATIC_JAVA_AAR_LIBRARIES := multidex
+LOCAL_STATIC_JAVA_AAR_LIBRARIES += rxandroid
+LOCAL_STATIC_JAVA_AAR_LIBRARIES += rxpermissions
+LOCAL_STATIC_JAVA_AAR_LIBRARIES += lib.communicate-release
+LOCAL_STATIC_JAVA_AAR_LIBRARIES += cockroach
+
+# aar package config
+
+#--extra-packages android.support.v7.appcompat \
+#    --extra-packages android.support.compat \
+#    --extra-packages android.support.coreui \
+#    --extra-packages android.support.coreutils \
+#    --extra-packages android.support.fragment \
+#    --extra-packages android.support.v4 \
+LOCAL_AAPT_FLAGS := \
+    --auto-add-overlay \
+    --extra-packages android.support.multidex \
+    --extra-packages io.reactivex.android \
+    --extra-packages com.tbruyelle.rxpermissions \
+    --extra-packages com.subor.lib.communicate \
+    --extra-packages com.subor.vr.launcher \
+    --extra-packages com.wanjian.cockroach \
+
+
+# jar confic
+#LOCAL_STATIC_JAVA_LIBRARIES := support-annotations
+#LOCAL_STATIC_JAVA_LIBRARIES += animated-vector-drawable
+#LOCAL_STATIC_JAVA_LIBRARIES += support-vector-drawable
+
+LOCAL_STATIC_JAVA_LIBRARIES := adapter-rxjava
+LOCAL_STATIC_JAVA_LIBRARIES += converter-gson
+LOCAL_STATIC_JAVA_LIBRARIES += converter-scalars
+LOCAL_STATIC_JAVA_LIBRARIES += logging-interceptor
+LOCAL_STATIC_JAVA_LIBRARIES += okhttp
+LOCAL_STATIC_JAVA_LIBRARIES += okio
+LOCAL_STATIC_JAVA_LIBRARIES += reactive-streams
+LOCAL_STATIC_JAVA_LIBRARIES += retrofit2-rxjava2-adapter
+LOCAL_STATIC_JAVA_LIBRARIES += retrofit
+LOCAL_STATIC_JAVA_LIBRARIES += rxjava
+
+LOCAL_STATIC_JAVA_LIBRARIES += bzip2
+LOCAL_STATIC_JAVA_LIBRARIES += mirror
+LOCAL_STATIC_JAVA_LIBRARIES += sun
+LOCAL_STATIC_JAVA_LIBRARIES += jzlib
+
+LOCAL_STATIC_JAVA_LIBRARIES += gson
+LOCAL_STATIC_JAVA_LIBRARIES += jackson-annotations
+LOCAL_STATIC_JAVA_LIBRARIES += jackson-core
+LOCAL_STATIC_JAVA_LIBRARIES += jackson-databind
+
+LOCAL_STATIC_JAVA_LIBRARIES += netty-all
+
+
+
+# All config
+
+#appcompat-v7 \
+#    support-v4 \
+#    support-compat \
+#    support-core-ui \
+#    support-core-utils \
+#    support-fragment \
+#animated-vector-drawable \
+#    support-vector-drawable \
+#    support-annotations \
+LOCAL_REQUIRED_MODULES += multidex \
+    cockroach \
+    rxandroid \
+    lib.communicate-release \
+    adapter-rxjava \
+    converter-gson \
+    converter-scalars \
+    logging-interceptor \
+    okhttp \
+    okio \
+    reactive-streams \
+    retrofit2-rxjava2-adapter \
+    retrofit \
+    rxjava \
+    bzip2 \
+    mirror \
+    sun \
+    jzlib \
+    gson \
+    jackson-annotations \
+    jackson-core \
+    jackson-databind \
+    netty-all \
+
+
+LOCAL_MODULE := subor.policy.SuborVR-V2.SuborUiLib
+LOCAL_DX_FLAGS := --multi-dex
+
+#BUILD_SHARED_LIBRARY #生成一个动态库
+#BUILD_STATIC_LIBRARY #生成一个静态的库
+#BUILD_PACKAGE #生成一个APK
+#BUILD_JAVA_LIBRARY 生成jar
+include $(BUILD_JAVA_LIBRARY)
+
+
+
+
+

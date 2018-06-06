@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">收音机</string>
+    <string name="loading">加载中…</string>
+    <string name="network_anomaly">网络异常！</string>
+    <!--各省代表广播-->
+    <array name="provice_radio_id">
+        <item>345</item><!--北京-->
+        <item>268</item><!--上海-->
+        <item>1175</item><!--天津-->
+        <item>1502</item><!--重庆-->
+        <item>469</item><!--广东-->
+        <item>4518</item><!--浙江-->
+        <item>5055</item><!--江苏-->
+        <item>4914</item><!--湖南-->
+        <item>1111</item><!--四川-->
+        <item>4951</item><!--山西-->
+        <item>1215</item><!--河南-->
+        <item>1303</item><!--湖北-->
+        <item>4973</item><!--黑龙江-->
+        <item>1099</item><!--辽宁-->
+        <item>1644</item><!--河北-->
+        <item>1665</item><!--山东-->
+        <item>4919</item><!--安徽-->
+        <item>1731</item><!--福建-->
+        <item>1753</item><!--广西-->
+        <item>1773</item><!--贵州-->
+        <item>1926</item><!--云南-->
+        <item>1810</item><!--江西-->
+        <item>4953</item><!--吉林-->
+        <item>1609</item><!--陕西-->
+        <item>1713</item><!--甘肃-->
+        <item>1841</item><!--宁夏-->
+        <item>1883</item><!--内蒙古-->
+        <item>1862</item><!--海南-->
+        <item>1316</item><!--西藏-->
+        <item>5008</item><!--青海-->
+        <item>4029</item><!--新疆-->
+    </array>
+    <array name="provice_radio_name">
+        <item>北京城市广播</item><!--北京-->
+        <item>上海故事广播</item><!--上海-->
+        <item>天津相声广播</item><!--天津-->
+        <item>重庆都市广播</item><!--重庆-->
+        <item>广东城市之声</item><!--广东-->
+        <item>浙江之声</item><!--浙江-->
+        <item>江苏新闻综合广播</item><!--江苏-->
+        <item>湖南快乐1045</item><!--湖南-->
+        <item>四川城市之音</item><!--四川-->
+        <item>山西综合广播AM819</item><!--山西-->
+        <item>河南新闻广播</item><!--河南-->
+        <item>湖北之声</item><!--湖北-->
+        <item>黑龙江广播交通台</item><!--黑龙江-->
+        <item>辽宁都市广播</item><!--辽宁-->
+        <item>河北新闻广播</item><!--河北-->
+        <item>山东音乐广播</item><!--山东-->
+        <item>安徽之声</item><!--安徽-->
+        <item>福建新闻广播</item><!--福建-->
+        <item>广西电台新闻910</item><!--广西-->
+        <item>贵阳新闻广播</item><!--贵州-->
+        <item>云南新闻广播</item><!--云南-->
+        <item>江西都市广播FM106.5</item><!--江西-->
+        <item>吉林新闻综合广播</item><!--吉林-->
+        <item>陕西都市广播 陕广新闻</item><!--陕西-->
+        <item>兰州幸福调频</item><!--甘肃-->
+        <item>宁夏经济广播</item><!--宁夏-->
+        <item>内蒙古新闻综合广播</item><!--内蒙古-->
+        <item>海南旅游广播·国际旅游岛之声</item><!--海南-->
+        <item>西藏都市生活广播</item><!--西藏-->
+        <item>青海经济广播</item><!--青海-->
+        <item>新疆MYFM1039</item><!--新疆-->
+    </array>
+    <!--中央台-->
+    <array name="cnr_radio_id">
+        <item>390</item>
+        <item>391</item>
+        <item>392</item>
+        <item>398</item>
+        <item>396</item>
+        <item>5039</item>
+    </array>
+    <array name="cnr_radio_name">
+        <item>CNR中华之声</item>
+        <item>CNR神州之声</item>
+        <item>CNR华夏之声</item>
+        <item>CNR娱乐广播</item>
+        <item>CNR老年之声</item>
+        <item>CNR中国乡村之声</item>
+    </array>
+</resources>

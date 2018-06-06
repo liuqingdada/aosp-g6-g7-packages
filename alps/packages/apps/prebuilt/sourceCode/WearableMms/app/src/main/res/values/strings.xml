@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WearableMms</string>
+    <string name="msg_demo1">林总，客户等着要报价</string>
+    <string name="msg_demo2">今天准备一下明天开会的资料</string>
+    <string name="contract_demo1">13656886388</string>
+    <string name="contract_demo2">老吴</string>
+    <string name="msg_chat_demo1">要报销的票据12号前给我。</string>
+    <string name="msg_chat_demo2">今天真的很感谢你，能来参加KALI的婚礼。</string>
+    <string name="msg_time_demo">10:20</string>
+    <string name="msg_date_demo">02/20</string>
+    <string name="msg_voice_hint">请说出你要发送的内容</string>
+    <string name="msg_voice_content_demo">今天真的很感谢你，能来参加KALI的婚礼</string>
+    <string name="msg_clean_all">清空信息？</string>
+    <string name="msg_no_message">无短信</string>
+    <string name="no_contract">无联系人</string>
+    <string name="new_message">新消息</string>
+    <string name="intercept_message">拦截短信</string>
+    <string name="input_num">请输入号码</string>
+    <string name="me">我</string>
+    <string name="clear_message">清空消息？</string>
+    <string name="open_network">请连接有效网络</string>
+</resources>

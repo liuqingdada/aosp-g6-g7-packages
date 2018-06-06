@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WatchFace</string>
+    <string name="watchface_diary">摩洛哥</string>
+    <string name="watchface_triangle">康定斯基</string>
+    <string name="watchface_y3">暗夜骑士</string>
+    <string name="watchface_gloden">黄金罗盘</string>
+    <string name="watchface_blueride">蓝调骑士</string>
+    <string name="watchface_lightblue">蓝光</string>
+    <string name="watchface_blackgold">黑金永恒</string>
+    <string name="watchface_donggan">动感地带</string>
+</resources>

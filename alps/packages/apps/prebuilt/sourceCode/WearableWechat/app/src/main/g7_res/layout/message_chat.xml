@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mstarc.wechat.wearwechat.common.SwipeDismissLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/head_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/main_highlight"
+        android:textSize="24px" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="31dp"
+        android:background="#33999999" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="31dp"
+        android:scrollbarSize="8dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarThumbVertical="@drawable/main_scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/main_scrollbar_tracker"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="left">
+
+    </android.support.v7.widget.RecyclerView>
+
+ 
+
+    <ImageButton
+        android:id="@+id/voice_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@android:color/black"
+        android:id="@+id/no_network_layout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:text="请连接WIFI或"
+            android:layout_marginTop="105dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:text="打开移动数据"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</com.mstarc.wechat.wearwechat.common.SwipeDismissLayout>

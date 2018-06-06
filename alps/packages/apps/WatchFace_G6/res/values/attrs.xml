@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="watchface_theme">
+        <attr name="background" format="reference" />
+        <attr name="hour_hand" format="reference" />
+        <attr name="minute_hand" format="reference" />
+        <attr name="second_hand" format="reference" />
+        <attr name="battery" format="reference" />
+        <attr name="step" format="reference" />
+        <attr name="wifi" format="reference" />
+        <attr name="sim" format="reference" />
+        <attr name="bt" format="reference" />
+        <attr name="textColor_battery" format="color" />
+        <attr name="textColor_step" format="color" />
+        <attr name="weather" format="reference" />
+    </declare-styleable>
+</resources>

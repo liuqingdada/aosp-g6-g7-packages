@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="wave">
+        <attr name="wave_speed" format="integer" />
+        <attr name="wave_height" format="integer" />
+        <attr name="wave_frequency" format="integer" />
+        <attr name="wave_color" format="integer" />
+    </declare-styleable>
+    <!-- swipe listview -->
+    <declare-styleable name="SwipeListView">
+        <attr name="swipeOpenOnLongPress" format="boolean" />
+        <attr name="swipeAnimationTime" format="integer" />
+        <attr name="swipeOffsetLeft" format="dimension" />
+        <attr name="swipeOffsetRight" format="dimension" />
+        <attr name="swipeCloseAllItemsWhenMoveList" format="boolean" />
+        <attr name="swipeFrontView" format="reference" />
+        <attr name="swipeBackView" format="reference" />
+        <attr name="swipeMode" format="enum">
+            <enum name="none" value="0" />
+            <enum name="both" value="1" />
+            <enum name="right" value="2" />
+            <enum name="left" value="3" />
+        </attr>
+        <attr name="swipeActionLeft" format="enum">
+            <enum name="reveal" value="0" />
+            <enum name="dismiss" value="1" />
+        </attr>
+        <attr name="swipeActionRight" format="enum">
+            <enum name="reveal" value="0" />
+            <enum name="dismiss" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

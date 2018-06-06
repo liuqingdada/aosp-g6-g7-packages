@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="batteryTextColorDay">#6C2216</color>
+    <color name="batteryColorNight">#636363</color>
+    <color name="stepTextColorDay">#2C2C2C</color>
+    <color name="stepColorNight">#636363</color>
+    <color name="diamondBatteryTextColorDay">#830214</color>
+    <color name="diamondBatteryColorNight">#636363</color>
+    <color name="diamondStepTextColorDay">#830214</color>
+    <color name="diamondStepColorNight">#636363</color>
+</resources>

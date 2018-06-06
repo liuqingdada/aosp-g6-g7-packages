@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:windowSwipeToDismiss">true</item>
+    </style>
+
+    <style name="HeadTitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#000</item>
+    </style>
+
+    <style name="DateTitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="WeekTitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+
+    <style name="TextAppearance.MaterialCalendarWidget.Header"
+        parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.MaterialCalendarWidget.Date"
+        parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/mcv_text_date_light</item>
+    </style>
+
+    <style name="TextAppearance.MaterialCalendarWidget.WeekDay"
+        parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

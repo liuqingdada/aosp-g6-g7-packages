@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="modern_city_normal_powerstep_color">#eda55d</color>
+    <color name="modern_city_ambient_powerstep_color">#a5a5a5</color>
+
+    <color name="colorful_ball_normal_time_color">#fddaed</color>
+    <color name="colorful_ball_normal_date_color">#f290c9</color>
+</resources>

@@ -1,0 +1,4 @@
+.idea
+*.iml
+gen
+apps/mstarc_library

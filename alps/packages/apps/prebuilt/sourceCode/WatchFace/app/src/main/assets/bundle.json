@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.mstarc.app.main"
+    },
+    {
+      "pkg": "com.mstarc.lib.watchbase"
+    },
+    {
+      "uri": "watchface",
+      "pkg": "com.mstarc.app.watchface"
+    },
+    {
+      "uri": "watchfaceg7",
+      "pkg": "com.mstarc.app.watchfaceg7"
+    }
+  ]
+}

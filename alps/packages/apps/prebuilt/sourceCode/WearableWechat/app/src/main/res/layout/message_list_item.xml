@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@drawable/ic_background"
+    android:minHeight="72dp">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/msg_list_profile"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/msg_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/msg_time"
+        android:layout_alignBottom="@+id/msg_time"
+        android:layout_toRightOf="@+id/msg_list_profile"
+        android:layout_marginLeft="20dp"
+        android:singleLine="true"
+        android:textColor="@color/main_highlight"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/msg_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/msg_contact"
+        android:layout_below="@+id/msg_contact"
+        android:layout_marginRight="22dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#999999"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/msg_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/activity_text_color_second"
+        android:singleLine="true"
+        android:textSize="22sp" />
+</RelativeLayout>

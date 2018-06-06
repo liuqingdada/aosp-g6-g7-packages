@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">Nastavenia aktívneho bodu a pripojenia jedného zariadenia k druhému</string>
+    <string name="tethered_ipv4v6">(k dispozícii je IPv6)</string>
+    <string name="tethered_ipv6">(k dispozícii je iba IPv6)</string>
+    <string name="tethered_ipv4">(IPv6 nie je k dispozícii)</string>
+    <string name="bluetooth_advanced_settings">"Rozšírené nastavenia"</string>
+    <string name="eap_sim_aka_airplanemode">Ak chcete používať EAP-SIM/AKA, vypnite režim Lietadlo</string>
+    
+    <string name="eap_sim_aka_no_sim_error">Ak chcete používať EAP-SIM/AKA, musíte vložiť kartu SIM</string>	
+    
+    <string name="eap_sim_aka_no_sim_slot_selected">Ak chcete používať EAP-SIM/AKA, musíte vybrať zásuvku SIM</string>
+	<string name="sim_slot">Zásuvka SIM</string>
+    
+    <string name="wapi_user_certificate">"Certifikát používateľa"</string>	
+	
+    <string name="wapi_as_certificate">Certifikát ASE</string> 
+     
+    <string name="wifi_hex_password">Šestnásťmiestne heslo.</string>
+    
+    <string name="wifi_no_cert_for_wapi">Nemožno nájsť certifikáciu pre momentálne pripájanú AP</string>
+    
+    
+    <string name="wifi_security_wapi_certificate">Certifikát WAPI</string>
+		
+</resources>

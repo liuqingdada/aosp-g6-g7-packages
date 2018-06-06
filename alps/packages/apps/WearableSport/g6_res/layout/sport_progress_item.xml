@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mstarc.wearablesport.view.SportItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/sport_progress_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:text="@string/sport_progress_item_bushu"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/sport_progress_item_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sport_progress_item_name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sport_progress_zero"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/sport_progress_item_danwei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/sport_progress_item_value"
+        android:layout_marginEnd="40dp"
+        android:text="@string/sport_progress_item_qianka"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/sport_progress_item_timer"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="2dp"
+        android:visibility="invisible" />
+</com.mstarc.wearablesport.view.SportItemLayout>

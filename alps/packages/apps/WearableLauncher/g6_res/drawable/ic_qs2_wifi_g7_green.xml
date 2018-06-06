@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/wifi0"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@drawable/wifi1_g7_green"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@drawable/wifi2_g7_green"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@drawable/wifi3_g7_green"
+        android:maxLevel="3" />
+    <item
+        android:drawable="@drawable/wifi4_g7_green"
+        android:maxLevel="4" />
+    <item
+        android:drawable="@drawable/wificlose_g7_green"
+        android:maxLevel="99" />
+
+</level-list>

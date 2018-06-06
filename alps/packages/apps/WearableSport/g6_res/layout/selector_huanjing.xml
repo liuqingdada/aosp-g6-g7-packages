@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_env"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.mstarc.wearablesport.view.TouchableLayout
+        android:id="@+id/selector_env_huwai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector_background"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/selector_env_huwai_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="95dp"
+            android:clickable="false"
+            android:src="@drawable/selector_env" />
+
+        <TextView
+            android:id="@+id/selector_env_huwai_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="100dp"
+            android:clickable="false"
+            android:text="@string/sport_mode_env_huwai"
+            android:textSize="26sp" />
+    </com.mstarc.wearablesport.view.TouchableLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gray_divider" />
+
+    <com.mstarc.wearablesport.view.TouchableLayout
+        android:id="@+id/selector_env_shinei"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector_background"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/selector_env_shinei_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="95dp"
+            android:clickable="false"
+            android:src="@drawable/selector_env" />
+
+        <TextView
+            android:id="@+id/selector_env_shinei_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="100dp"
+            android:clickable="false"
+            android:text="@string/sport_mode_env_shinei"
+            android:textSize="26sp" />
+    </com.mstarc.wearablesport.view.TouchableLayout>
+</LinearLayout>

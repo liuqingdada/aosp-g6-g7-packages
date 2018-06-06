@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSettingDivider">#2A2724</color>
+    <color name="notification_remove_background">#FFD50000</color>
+    <color name="background_normal">#000</color>
+    <color name="background_high">#333333</color>
+    <color name="clickedColor">#333333</color>
+    <color name="weather_text_color_2">#fece71</color>
+    <color name="main_highlight">#FF1d79</color>
+    <!--smart-->
+    <color name="smart_text_color">#ff1d79</color>
+	<color name="air_white">#ffffff</color>
+	
+</resources>

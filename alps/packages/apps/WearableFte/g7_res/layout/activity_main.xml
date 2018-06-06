@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_85_transparent"
+    tools:context="com.mstarc.fte.wearablefte.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/welcome_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_text_color_white"
+            android:textSize="@dimen/common_text_size_30"
+            android:text="@string/welcome_to_fte"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btn_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_text_bg"
+            android:textSize="@dimen/common_text_size_24"
+            android:text="@string/welcome_to_fte_skip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+
+        <Button
+            android:id="@+id/btn_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_text_bg"
+            android:textSize="@dimen/common_text_size_24"
+            android:text="@string/welcome_to_fte_in"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/launch_demo_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <FrameLayout
+        android:id="@+id/slide_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.mstarc.fte.wearablefte.view.SlideAnimationView
+            android:id="@+id/slide_animatin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:id="@+id/text_type_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/text_type_1_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/common_text_color_white"
+                android:textSize="@dimen/common_text_size_30"/>
+
+            <TextView
+                android:id="@+id/text_type_1_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/common_text_color_white"
+                android:textSize="@dimen/common_text_size_22"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_type_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/text_type_2_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/common_text_color_white"
+                android:textSize="@dimen/common_text_size_30"/>
+
+            <TextView
+                android:id="@+id/text_type_2_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/text_type_2_up"
+                android:textColor="@color/common_text_color_white"
+                android:textSize="@dimen/common_text_size_22"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_type_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/text_type_3_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal"
+                android:layout_above="@+id/text_type_3_down"
+                android:textColor="@color/common_text_color_white"
+                android:textSize="@dimen/common_text_size_30"/>
+
+            <TextView
+                android:id="@+id/text_type_3_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/common_text_color_white"
+                android:textSize="@dimen/common_text_size_22"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/rotate_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/rotate_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_color_animation"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="@string/long_pressed_1"
+                android:textColor="@color/common_text_color_white"
+                android:textSize="@dimen/common_text_size_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/long_pressed_2"
+                android:textColor="@color/common_text_color_white"
+                android:textSize="@dimen/common_text_size_22"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

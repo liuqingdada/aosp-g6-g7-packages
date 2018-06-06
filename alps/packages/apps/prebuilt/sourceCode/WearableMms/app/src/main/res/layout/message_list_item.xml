@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="78dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:id="@+id/back"
+        android:tag="back">
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@drawable/ic_background"
+        android:id="@+id/front"
+        android:tag="front">
+        <ImageView
+            android:id="@+id/msg_list_profile"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/msg_contact"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/msg_time"
+            android:layout_alignBottom="@+id/msg_time"
+            android:layout_toRightOf="@+id/msg_list_profile"
+            android:layout_marginLeft="20dp"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/contract_demo1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/msg_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/msg_contact"
+            android:layout_below="@+id/msg_contact"
+            android:layout_marginRight="22dp"
+            android:maxLines="1"
+            android:text="@string/msg_demo1"
+            android:textColor="#999999"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/msg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/msg_time_demo"
+            android:textSize="22sp" />
+
+        <RelativeLayout
+            android:id="@+id/item_rl_pop_count"
+            android:visibility="gone"
+            android:layout_marginEnd="-5dp"
+            android:layout_marginTop="-5dp"
+            android:layout_alignTop="@+id/msg_list_profile"
+            android:layout_alignEnd="@+id/msg_list_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_item_count"
+                android:scaleType="fitXY" />
+            <TextView
+                android:id="@+id/item_tv_pop_count"
+                android:textColor="@android:color/black"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

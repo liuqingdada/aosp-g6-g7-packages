@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">wfTest</string>
+    <string name="install">install</string>
+    <string name="uninstall">uninstall</string>
+    <string name="all">所有</string>
+    <string name="current">当前</string>
+    <string name="ntTitle">表盘服务</string>
+    <string name="install2">安装file</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Heart Rate</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="demo_heart_rate_value">90</string>
+    <string name="demo_heart_rate_average">平均</string>
+    <string name="demo_heart_rate_average_value">60</string>
+    <string name="demo_heart_rate_max">最大</string>
+    <string name="demo_heart_rate_max_value">120</string>
+    <string name="hr_notification_title">心率</string>
+    <string name="hr_notification_content">心率测试正在运行</string>
+    <string name="switch_tip">请将手表戴在手腕上\n再进行测量</string>
+</resources>

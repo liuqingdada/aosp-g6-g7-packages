@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">تنظیمات نقطه اتصال و مهار زنی</string>
+    <string name="tethered_ipv4v6">(IPv6 قابل استفاده است)</string>
+    <string name="tethered_ipv6">(فقط IPv6 قابل استفاده است)</string>
+    <string name="tethered_ipv4">(IPv6 قابل استفاده نیست)</string>
+    <string name="bluetooth_advanced_settings">"تنظیمات پیشرفته"</string>
+    <string name="eap_sim_aka_airplanemode">لطفا حالت هواپیما را خاموش کنید تا از EAP-SIM/AKA استفاده کنید</string>
+    
+    <string name="eap_sim_aka_no_sim_error">برای استفاده از EAP-SIM/AKA باید یک سیم کارت قرار دهید</string>	
+    
+    <string name="eap_sim_aka_no_sim_slot_selected">برای استفاده از EAP-SIM/AKA باید یک شکاف سیم کارت انتخاب کنید</string>
+	<string name="sim_slot">شکاف سیم کارت</string>
+    
+    <string name="wapi_user_certificate">گواهی کاربر</string>	
+	
+    <string name="wapi_as_certificate">گواهی ASE</string> 
+     
+    <string name="wifi_hex_password">رمز ورود هگزادسيمال.</string>
+    
+    <string name="wifi_no_cert_for_wapi">یافتن گواهی برای نقطه دسترسی اتصال فعلی امکان پذیر نیست</string>
+    
+    
+    <string name="wifi_security_wapi_certificate">گواهینامه WAPI</string>
+		
+</resources>

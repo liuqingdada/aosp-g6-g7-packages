@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/incomming"
+        android:name="com.mstarc.wearablephone.incall.fragment.InCommingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/outgoning"
+        android:name="com.mstarc.wearablephone.incall.fragment.OutGoingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/talking"
+        android:name="com.mstarc.wearablephone.incall.fragment.TalkingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

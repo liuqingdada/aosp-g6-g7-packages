@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">Definições de ponto de acesso e partilha de ligação</string>
+    <string name="tethered_ipv4v6">(IPv6 disponível)</string>
+    <string name="tethered_ipv6">(Apenas IPv6 disponível)</string>
+    <string name="tethered_ipv4">(IPv6 não disponível)</string>
+    <string name="bluetooth_advanced_settings">"Definições avançadas"</string>
+    <string name="eap_sim_aka_airplanemode">Desactive o modo de Avião para utilizar a função EAP-SIM/AKA</string>
+    
+    <string name="eap_sim_aka_no_sim_error">Deve inserir um cartão SIM para utilizar EAP-SIM/AKA</string>	
+    
+    <string name="eap_sim_aka_no_sim_slot_selected">Deve seleccionar uma ranhura do SIM para utilizar EAP-SIM/AKA</string>
+	<string name="sim_slot">Ranhura do SIM</string>
+    
+    <string name="wapi_user_certificate">Certificado do utilizador</string>	
+	
+    <string name="wapi_as_certificate">Certificado ASE</string> 
+     
+    <string name="wifi_hex_password">Palavra-passe hexadecimal.</string>
+    
+    <string name="wifi_no_cert_for_wapi">Não foi possível encontrar a certificação para o PA actualmente ligado</string>
+    
+    
+    <string name="wifi_security_wapi_certificate">Certificado WAPI</string>
+		
+</resources>

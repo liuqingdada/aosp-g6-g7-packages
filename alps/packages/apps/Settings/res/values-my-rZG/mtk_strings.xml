@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">ေဟာ့စေပါ့ႏွင့္ လႊင့္ထားျခင္း ဆက္တင္မ်ား</string>
+    <string name="tethered_ipv4v6">(IPv6 ရရွိႏိုင္သည္)</string>
+    <string name="tethered_ipv6">(IPv6 သာလွ်င္ရရွိႏိုင္သည္)</string>
+    <string name="tethered_ipv4">(IPv6 မရရွိႏိုင္ပါ)</string>
+    <string name="bluetooth_advanced_settings">အဆင့္ျမင့္ အဆင္အျပင္မ်ား</string>
+    <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA ကို အသံုးျပဳရန္ ေလယာဥ္တြင္း နည္းစနစ္ကို ေက်းဇူးျပဳ၍ ပိတ္ပါ</string>
+    <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA ကို အသံုးျပဳရန္ sim ကတ္ကို သင္ထည့္ရမည္။</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA ကို အသံုးျပဳရန္ sim ကတ္အထုိင္ကို သင္ေရြးခ်ယ္ရမည္</string>
+    <string name="sim_slot">SIM ကတ္အထုိင္</string>
+    <string name="wapi_user_certificate">အသံုးျပဳသူ လက္မွတ္</string>
+    <string name="wapi_as_certificate">ASE လက္မွတ္</string>
+    <string name="wifi_hex_password">အေျခတစ္ဆယ့္ေျခာက္ရွိေသာ စကားဝွက္။</string>
+    <string name="wifi_no_cert_for_wapi">လက္ရွိ ခ်ိတ္ဆက္ထားေသာ AP အတြက္ လက္မွတ္ကို ရွာမေတြ႕ပါ</string>
+    <string name="wifi_security_wapi_certificate">WAPI အေထာက္အထား</string>
+</resources>

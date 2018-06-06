@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mstarc.wearablesport.view.ProgressView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/progress_header" />
+
+    <ImageView
+        android:id="@+id/sport_progress_divider1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp" />
+
+    <ImageView
+        android:id="@+id/sport_progress_divider2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp" />
+
+    <com.cleveroad.loopbar.widget.LoopBarView
+        android:id="@+id/endlessView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        app:enls_orientation="vertical"
+        app:enls_forcus_index="second"
+        app:enls_scrollMode="infinite">
+
+    </com.cleveroad.loopbar.widget.LoopBarView>
+
+    <include
+        layout="@layout/start_pause_dialog"
+        android:visibility="gone" />
+</com.mstarc.wearablesport.view.ProgressView>

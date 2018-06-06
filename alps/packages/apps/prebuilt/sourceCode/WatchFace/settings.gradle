@@ -1,0 +1,1 @@
+include ':app', ':lib.watchbase', ':app.main', ':app+stub', ':app.watchface', ':vendor-aar', ':app.watchfaceg7', ':app+stubg7'

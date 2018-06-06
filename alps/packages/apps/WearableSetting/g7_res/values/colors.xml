@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_little_white">#fbfbfb</color>
+    <color name="color_high_grag">#9d9d9c</color>
+    <color name="color_device_info_title">#a19f9f</color>
+    <color name="color_device_info_sub_title">#dad9d9</color>
+    <color name="color_pass_tip">#a6a6a3</color>
+    <color name="clickedColor">#333333</color>
+    <color name="color_selected_word">#FC2679</color>
+    <color name="password_error_bg">#F0000000</color>
+    <color name="white">#ffffff</color>
+</resources>

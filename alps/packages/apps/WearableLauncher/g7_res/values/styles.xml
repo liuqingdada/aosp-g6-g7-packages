@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="Theme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar">
+    </style>
+
+    <style name="Theme.WallpaperPicker" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+
+    <style name="AppTheme" parent="android:Theme.Holo.Wallpaper.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="SubActivityTheme" parent="AppTheme">
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowEnterTransition">@android:transition/slide_right</item>
+        <item name="android:windowExitTransition">@android:transition/slide_right</item>
+    </style>
+
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="PowerDialog" parent="Dialog">
+        <item name="android:windowSwipeToDismiss">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="NotificationDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSwipeToDismiss">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/voice_search"
+        layout="@layout/phone_contacts_search"/>
+
+    <com.mstarc.wearablephone.view.common.CustomScrollbarRecyclerView
+        android:id="@+id/contracts_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/voice_search"
+        android:overScrollMode="never"
+        android:scrollbarSize="8dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarThumbVertical="@drawable/main_scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/main_scrollbar_tracker"
+        android:scrollbars="vertical"
+        android:translationZ="10dp"
+        android:verticalScrollbarPosition="left"
+        app:marginbottom="38dp"
+        app:marginleft="10dp"
+        app:marginright="-10dp"
+        app:margintop="38dp">
+
+    </com.mstarc.wearablephone.view.common.CustomScrollbarRecyclerView>
+
+    <TextView
+        android:id="@+id/contract_no_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/contract_no_msg"
+        android:textSize="28sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

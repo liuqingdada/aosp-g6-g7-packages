@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="demo_weather_location">青岛</string>
+    <string name="demo_weather_date">01-16</string>
+    <string name="demo_weather_time">18:26</string>
+    <string name="demo_weather_temp">20°</string>
+    <string name="demo_weather_quality">78  优</string>
+    <string name="demo_weather_next_one_day">四</string>
+    <string name="demo_weather_next_one_day_temp">5-15°</string>
+    <string name="demo_weather_next_two_day">五</string>
+    <string name="demo_weather_next_two_day_temp">5-13°</string>
+    <string name="demo_weather_next_three_day">六</string>
+    <string name="demo_weather_next_three_day_temp">4-16°</string>
+    <string name="no_weather_data">无天气数据</string>
+</resources>

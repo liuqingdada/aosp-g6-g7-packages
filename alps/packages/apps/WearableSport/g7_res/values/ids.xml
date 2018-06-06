@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <!-- launcher ids -->
+    <item type="id" name="horizontal_grid_view_tag_last_pos"/>
+    <item type="id" name="horizontal_grid_view_tag_direction"/>
+    <item type="id" name="expand_layout_x_tag"/>
+    <item type="id" name="viewhoder_item"/>
+    <!-- launcher ids -->
+</resources>

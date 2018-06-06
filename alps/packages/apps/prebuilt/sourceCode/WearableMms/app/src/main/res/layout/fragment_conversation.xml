@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/add_message">
+        <ImageView
+            android:id="@+id/add_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:id="@+id/new_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/add_new"
+            android:layout_marginLeft="20dp"
+            android:text="@string/new_message"
+            android:textSize="24sp" />
+        <ImageView
+            android:id="@+id/lineView"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:background="@color/color_high_grag"
+            android:layout_height="2dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/enter_junk_mms"
+        android:layout_below="@+id/add_message"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/iv_junk_mms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:id="@+id/tv_jumk_mms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_junk_mms"
+            android:layout_marginLeft="20dp"
+            android:text="@string/intercept_message"
+            android:textSize="24sp" />
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:background="@color/color_high_grag"
+            android:layout_height="2dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/no_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/msg_no_message"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_below="@+id/enter_junk_mms"/>
+    <com.mstarc.wearablemms.view.SwipeListView
+        xmlns:swipe="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lv_conversation_list"
+        android:layout_below="@+id/enter_junk_mms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="8dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarThumbVertical="@drawable/main_scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/main_scrollbar_tracker"
+        android:scrollbars="vertical"
+        android:overScrollMode="never"
+        android:verticalScrollbarPosition="left"
+        swipe:swipeActionLeft="reveal"
+        swipe:swipeBackView="@+id/back"
+        swipe:swipeCloseAllItemsWhenMoveList="true"
+        swipe:swipeFrontView="@+id/front"
+        swipe:swipeMode="left"
+        android:dividerHeight="1dp"
+        swipe:swipeOffsetLeft="200dp"
+        swipe:swipeOpenOnLongPress="false"
+        android:listSelector="@drawable/ic_background"
+        />
+
+
+</RelativeLayout>

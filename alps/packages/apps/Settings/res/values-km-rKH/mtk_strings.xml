@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">ការសិតចំណុចតភ្ជាប់បណ្តាញចល័តដែលអាចផ្លាស់ប្តូរបាន &amp; ការភ្ជាប់</string>
+    <string name="tethered_ipv4v6">(មាន IPv6)</string>
+    <string name="tethered_ipv6">(មានតែ IPv6)</string>
+    <string name="tethered_ipv4">(មិនមាន IPv6)</string>
+    <string name="bluetooth_advanced_settings">"ការ​កំណត់​កម្រិត​ខ្ពស់"</string>
+    <string name="eap_sim_aka_airplanemode">សូមបិទម៉ូដជិះយន្តហោះ ដើម្បីប្រើ EAP-SIM/AKA</string>
+    
+    <string name="eap_sim_aka_no_sim_error">អ្នកត្រូវស៊កបញ្ចូល sim កាត ដើម្បីប្រើ EAP-SIM/AKA</string>	
+    
+    <string name="eap_sim_aka_no_sim_slot_selected">អ្នកត្រូវជ្រើសយកប្រឡោះ sim ដើម្បីប្រើ EAP-SIM/AKA</string>
+	<string name="sim_slot">SIM ប្រឡោះ</string>
+    
+    <string name="wapi_user_certificate">វិញ្ញាបនប័ត្រអ្នកប្រើ</string>	
+	
+    <string name="wapi_as_certificate">វិញ្ញាបនប័ត្រ ASE</string> 
+     
+    <string name="wifi_hex_password">ពាក្យសម្ងាត់ដែលមាន ប្រាំមួយឆ្ទង់</string>
+    
+    <string name="wifi_no_cert_for_wapi">មិនអាចរកឃើញការបញ្ជាក់ សម្រាប់ការតភ្ជាប់ AP បច្ចុប្បន្ន</string>
+    
+    
+    <string name="wifi_security_wapi_certificate">វិញ្ញាបនប័ត្រ​ WAPI</string>
+		
+</resources>

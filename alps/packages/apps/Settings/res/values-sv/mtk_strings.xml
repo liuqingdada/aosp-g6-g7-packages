@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">Inställningar för surfpunkt och Internetdelning</string>
+    <string name="tethered_ipv4v6">(IPv6 tillgängligt)</string>
+    <string name="tethered_ipv6">(Endast IPv6 tillgängligt)</string>
+    <string name="tethered_ipv4">(IPv6 ej tillgänligt)</string>
+    <string name="bluetooth_advanced_settings">"Avancerade inställningar"</string>
+    <string name="eap_sim_aka_airplanemode">Stäng av flygplansläget för att använda EAP-SIM/AKA</string>
+    
+    <string name="eap_sim_aka_no_sim_error">Du måste sätta in ett SIM-kort för att använda EAP-SIM/AKA</string>	
+    
+    <string name="eap_sim_aka_no_sim_slot_selected">Du måste välja en SIM-kortplats för att använda EAP-SIM/AKA</string>
+	<string name="sim_slot">SIM-kortplats</string>
+    
+    <string name="wapi_user_certificate">"Användarcertifikat"</string>	
+	
+    <string name="wapi_as_certificate">ASE-certifikat</string> 
+     
+    <string name="wifi_hex_password">Hexadecimalt lösenord.</string>
+    
+    <string name="wifi_no_cert_for_wapi">Kunde inte hitta certifiering för befintligt ansluten AP</string>
+    
+    
+    <string name="wifi_security_wapi_certificate">WAPI-certifikat</string>
+		
+</resources>

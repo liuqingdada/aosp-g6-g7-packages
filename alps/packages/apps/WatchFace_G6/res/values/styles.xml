@@ -1,0 +1,63 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Wallpaper.NoTitleBar">
+
+    </style>
+
+    <style name="day">
+        <item name="background">@drawable/day_bg</item>
+        <item name="hour_hand">@drawable/day_hour</item>
+        <item name="minute_hand">@drawable/day_min</item>
+        <item name="second_hand">@drawable/day_second</item>
+        <item name="battery">@drawable/day_battery_selector</item>
+        <item name="step">@drawable/day_step</item>
+        <item name="wifi">@drawable/day_wifi_selector</item>
+        <item name="sim">@drawable/day_sim_selector</item>
+        <item name="bt">@drawable/day_bt_selector</item>
+        <item name="textColor_battery">@color/batteryTextColorDay</item>
+        <item name="textColor_step">@color/stepTextColorDay</item>
+    </style>
+
+    <style name="night">
+        <item name="background">@drawable/night_bg</item>
+        <item name="hour_hand">@drawable/night_hour</item>
+        <item name="minute_hand">@drawable/night_min</item>
+        <item name="second_hand">@drawable/day_second</item>
+        <item name="battery">@drawable/night_battery_selector</item>
+        <item name="step">@drawable/night_step</item>
+        <item name="wifi">@drawable/night_wifi_selector</item>
+        <item name="sim">@drawable/night_sim_selector</item>
+        <item name="bt">@drawable/night_bt_selector</item>
+        <item name="textColor_battery">@color/batteryColorNight</item>
+        <item name="textColor_step">@color/stepColorNight</item>
+    </style>
+
+    <style name="trinangle_day">
+        <item name="background">@drawable/triangle_day_bg</item>
+        <item name="hour_hand">@drawable/triangle_day_hour</item>
+        <item name="minute_hand">@drawable/triangle_day_min</item>
+        <item name="second_hand">@drawable/triangle_day_secend</item>
+    </style>
+
+    <style name="triangle_night">
+        <item name="background">@drawable/triangle_night_bg</item>
+        <item name="hour_hand">@drawable/triangle_night_hour</item>
+        <item name="minute_hand">@drawable/triangle_night_min</item>
+        <item name="second_hand">@drawable/triangle_day_secend</item>
+    </style>
+
+    <style name="y3_day">
+        <item name="background">@drawable/y3_day_bg</item>
+        <item name="hour_hand">@drawable/y3_day_hour</item>
+        <item name="minute_hand">@drawable/y3_day_min</item>
+        <item name="second_hand">@drawable/y3_day_second</item>
+    </style>
+
+    <style name="y3_night">
+        <item name="background">@drawable/y3_night_bg</item>
+        <item name="hour_hand">@drawable/y3_night_hour</item>
+        <item name="minute_hand">@drawable/y3_night_min</item>
+        <item name="second_hand">@drawable/y3_day_second</item>
+    </style>
+
+</resources>

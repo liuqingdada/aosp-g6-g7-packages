@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">Nastavitve dostopne točke in deljenja mobilnega interneta</string>
+    <string name="tethered_ipv4v6">(IPv6 je na voljo)</string>
+    <string name="tethered_ipv6">(Na voljo je le IPv6)</string>
+    <string name="tethered_ipv4">(IPv6 ni na voljo)</string>
+    <string name="bluetooth_advanced_settings">"Dodatne nastavitve"</string>
+    <string name="eap_sim_aka_airplanemode">Izklopite način za letalo, če želite uporabljati EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_error">Vstavite kartico SIM, če želite uporabljati EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">Izberite režo SIM, če želite uporabljati EAP-SIM/AKA</string>
+    <string name="sim_slot">Reža SIM</string>
+    <string name="wapi_user_certificate">"Uporabniško potrdilo"</string>
+    <string name="wapi_as_certificate">Potrdilo ASE</string>
+    <string name="wifi_hex_password">Šestnajstiško geslo.</string>
+    <string name="wifi_no_cert_for_wapi">Ni mogoče najti potrdila za trenutno povezano AP</string>
+    <string name="wifi_security_wapi_certificate">Potrdilo WAPI</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080304"
+    android:translationZ="10dp">
+
+    <TextView
+        android:id="@+id/notification_no_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/notification_no_message"
+        android:textColor="#fff"
+        android:visibility="gone"
+        android:textSize="25sp" />
+
+    <com.mstarc.wearablelauncher.view.common.CustomScrollbarRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/notification_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:divider="@drawable/setting_divider"
+        android:nestedScrollingEnabled="true"
+        android:scrollbarSize="8dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarThumbVertical="@drawable/notification_scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/notification_scrollbar_tracker"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="left"
+        app:marginleft="6dp"
+        app:margintop="38dp"
+        app:marginright="-6dp"
+        app:marginbottom="38dp"
+        android:orientation="vertical">
+
+    </com.mstarc.wearablelauncher.view.common.CustomScrollbarRecyclerView>
+</RelativeLayout>

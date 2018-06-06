@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WearableFte</string>
+    <string name="welcome_to_fte">欢迎进入操作指引</string>
+    <string name="welcome_to_fte_skip">跳过</string>
+    <string name="welcome_to_fte_in">进入</string>
+    <string name="slide_left_first">向左滑动开始</string>
+    <string name="slide_down_fist">向下滑动试试看</string>
+    <string name="slide_down">向下滑动</string>
+    <string name="slide_down_first_info">进入电量管理和模式设置</string>
+    <string name="slide_left">向左滑动</string>
+    <string name="slide_left_info_mode">进入情景模式设置</string>
+    <string name="slide_left_info_weather">进入天气信息</string>
+    <string name="slide_up">向上滑动</string>
+    <string name="slide_info_back_face">回到表盘</string>
+    <string name="slide_up_info_notification">进入消息通知</string>
+    <string name="slide_right">向右滑动</string>
+    <string name="slide_right_info">进入支付界面</string>
+    <string name="long_pressed">很好\n长按试试</string>
+</resources>

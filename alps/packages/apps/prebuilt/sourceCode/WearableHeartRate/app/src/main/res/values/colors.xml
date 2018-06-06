@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="heart_rate_background">#040000</color>
+    <color name="heart_rate_text_color">#FFFFFF</color>
+    <color name="heart_rate_count_color">#f8ce71</color>
+
+    <color name="heart_default">#FFFFFF</color>
+    <color name="heartbeat">#FFFFFF</color>
+    <color name="white">#ffffff</color>
+</resources>

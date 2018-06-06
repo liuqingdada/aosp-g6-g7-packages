@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">হটস্পট ও টিথারিং সেটিং</string>
+    <string name="tethered_ipv4v6">(IPv6 আছে)</string>
+    <string name="tethered_ipv6">(কেবল IPv6 আছে)</string>
+    <string name="tethered_ipv4">(IPv6 আছে)</string>
+    <string name="bluetooth_advanced_settings">ব্লুটুথ উচ্চতর সেটিং</string>
+    <string name="eap_sim_aka_airplanemode">ইএপি-সিম/একেএ ব্যবহারের জন্য উড়োজাহাজ মোড বন্ধ করুন</string>
+    <string name="eap_sim_aka_no_sim_error">ইএপি-সিম/একেএ ব্যবহারের জন্য আপনাকে অবশ্যই একটি সিম কার্ড প্রবেশ করাতে হবে</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">ইএপি-সিম/একেএ ব্যবহারের জন্য আপনাকে অবশ্যই একটি সিম স্লট নির্বাচন করতে হবে</string>
+    <string name="sim_slot">সিম স্লট</string>
+    <string name="wapi_user_certificate">ব্যবহারকারীর সনদ</string>
+    <string name="wapi_as_certificate">এএসই সনদ</string>
+    <string name="wifi_hex_password">হেক্সাডেসিমেল পাসওয়ার্ড।</string>
+    <string name="wifi_no_cert_for_wapi">অ্যাপ সংযুক্ত করতে এখন কোনো সার্টিফিকেট খুঁজে পাওয়া যায়নি</string>
+    <string name="wifi_security_wapi_certificate">WAPI সনদপত্র</string>
+</resources>

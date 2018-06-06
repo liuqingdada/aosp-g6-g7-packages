@@ -1,0 +1,57 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mstarc.app.stubg7">
+
+    <!-- wallpaper start -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <!-- wallpaper end -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <service
+            android:name="com.mstarc.app.watchfaceg7.wallpaper.ModernCityWatchFace"
+            android:label="@string/watchface_modern_city"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/modern_city"/>
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+
+                <category android:name="com.mstarc.wearable.category.WATCH_FACE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+
+        <!--<service-->
+            <!--android:name="com.mstarc.app.watchfaceg7.wallpaper.ColourfulBallWatchFace"-->
+            <!--android:label="@string/watchface_colorful_ball"-->
+            <!--android:permission="android.permission.BIND_WALLPAPER">-->
+            <!--<meta-data-->
+                <!--android:name="android.service.wallpaper"-->
+                <!--android:resource="@xml/colorful_ball"/>-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.service.wallpaper.WallpaperService"/>-->
+
+                <!--<category android:name="com.mstarc.wearable.category.WATCH_FACE"/>-->
+                <!--<category android:name="android.intent.category.DEFAULT"/>-->
+            <!--</intent-filter>-->
+        <!--</service>-->
+
+    </application>
+
+</manifest>

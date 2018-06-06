@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:windowSwipeToDismiss">true</item>
+    </style>
+    <style name="tip_dialog">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

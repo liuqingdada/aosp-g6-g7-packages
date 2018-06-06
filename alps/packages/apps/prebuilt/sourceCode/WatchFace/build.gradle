@@ -1,0 +1,100 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        //classpath 'net.wequick.tools.build:gradle-small:1.2.0-alpha6'
+        classpath 'net.wequick.tools.build:gradle-small:1.3.0-beta3'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+apply plugin: 'net.wequick.small'
+
+small {
+    strictSplitResources = false
+    //buildToAssets = false
+    //aarVersion = "1.2.0-alpha6"
+    aarVersion = '1.3.0-beta3'
+    android {
+        compileSdkVersion = 25
+        buildToolsVersion = "26.0.3"
+        supportVersion = "25.3.1" // replace this with an explicit value
+    }
+}
+//
+
+//
+
+////-------------------------------------------------------------------
+
+//// Small plugin
+
+////
+
+//// Cannot automatically merge the buildscript in Android Studio 2.0+,
+
+//// uncomment this section and sync the project to go into force.
+
+////-------------------------------------------------------------------
+
+//
+
+//buildscript  {
+
+//    dependencies {
+
+//        classpath 'net.wequick.tools.build:gradle-small:1.2.0-alpha6'
+
+//    }
+
+//}
+
+//
+
+//apply plugin: 'net.wequick.small'
+
+//
+
+//small {
+
+//    // Whether build all the bundles to host assets.
+
+//    buildToAssets = false
+
+//
+
+//    // The compiling `net.wequick.small:small` aar version.
+
+//    aarVersion = "1.2.0-alpha6"
+
+//
+
+//    // The project-wide Android version configurations
+
+//    android {
+
+//        compileSdkVersion = 26
+
+//        buildToolsVersion = "26.0.1"
+
+//        supportVersion = "26.+" // replace this with an explicit value
+
+//    }
+
+//}

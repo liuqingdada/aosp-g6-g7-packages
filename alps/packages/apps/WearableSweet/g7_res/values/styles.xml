@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:windowSwipeToDismiss">true</item>
+    </style>
+
+    <style name="launchStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@color/activity_background</item>
+        <item name="android:windowBackground">@color/activity_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

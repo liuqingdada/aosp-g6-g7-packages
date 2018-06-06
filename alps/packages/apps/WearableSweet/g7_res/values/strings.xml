@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WearableSweat</string>
+<string name="demo_qrcode_login_nonet1">网络已断开</string>
+<string name="demo_qrcode_login_nonet2">请连接后进入</string>
+    <string name="demo_qrcode_login">请用微信扫描绑定</string>
+    <string name="demo_qrcode_login_prompt">帮助说明</string>
+    <string name="demo_qrcode_login_prompt_1">请让关注你的人用微信扫描二维码，关注"喵星蜜语"公众号并绑定蜜语人。</string>
+    <string name="demo_qrcode_login_prompt_2">绑定后在公众号编辑要对蜜语人提醒的蜜语，手表会自动提醒。</string>
+    <string name="sweat_people">蜜语人</string>
+    <string name="demo_sweat_people">李三星</string>
+    <string name="demo_sweat_unbind">解除绑定</string>
+</resources>

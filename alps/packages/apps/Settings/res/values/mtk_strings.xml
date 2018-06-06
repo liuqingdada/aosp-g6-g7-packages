@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->
+    <string name="eap_sim_aka_airplanemode">Please turn off Airplane mode to use EAP-SIM/AKA</string>
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->
+    <string name="eap_sim_aka_no_sim_error">You must insert a sim card to use EAP-SIM/AKA</string>	
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->
+    <string name="eap_sim_aka_no_sim_slot_selected">You must select a sim slot to use EAP-SIM/AKA</string>
+	<string name="sim_slot">SIM Slot</string>
+    <!-- Label for the WAPI user certificate of the network -->
+    <string name="wapi_user_certificate">User certificate</string>	
+	<!-- Label for the WAPI ASE certificate of the network -->
+    <string name="wapi_as_certificate">ASE certificate</string> 
+     <!-- Label for the check box for hexadecimal password -->
+    <string name="wifi_hex_password">Hexadecimal password.</string>
+    <!--Wi-Fi settings strings start-->
+    <string name="wifi_no_cert_for_wapi">Could not find certification for current connecting AP</string>
+    <!-- Concise terminology for wifi with WAPI PSK -->
+    <string name="wifi_security_wapi_psk" translatable="false">WAPI PSK</string>
+    <string name="wifi_security_wapi_certificate">WAPI Certificate</string>
+		
+    <!--IPV6 Tether settings-->
+    <string name="tethered_ipv6_title">Hotspot &amp; tethering settings</string>
+    <string name="tethered_ipv4v6">(IPv6 available)</string>
+    <string name="tethered_ipv6">(Only IPv6 available)</string>
+    <string name="tethered_ipv4">(IPv6 unavailable)</string>
+
+    <!-- Bluetooth settings screen, menu item to bluetooth advanced settings. -->
+    <string name="bluetooth_advanced_settings">Advanced settings</string>
+
+    <!-- MTK HDMI start -->
+    <string name="hdmi_toggler" translatable="false">HDMI</string>
+    <string name="hdmi_settings">HDMI settings</string>
+    <string name="hdmi_settings_summary">Click to configure HDMI</string>
+    <string name="hdmi_audio_toggler">Audio</string>
+    <string name="hdmi_video_toggler">Video</string>
+    <string name="hdmi_video_resolution">Video resolution</string>
+    <string name="hdmi_auto">AUTO</string>
+    <string name="hdmi_replace_hdmi" translatable="false">HDMI</string>
+    <string name="hdmi_replace_mhl" translatable="false">MHL</string>
+    <string name="hdmi_scale_control">Video scale settings</string>
+    <string name="hdmi_scale_no_scale">No scaling</string>
+    <string name="hdmi_scale_scale_down">Scale down <xliff:g id="scale_percent">%s</xliff:g>%%</string>
+    <!-- MTK HDMI end -->
+
+</resources>

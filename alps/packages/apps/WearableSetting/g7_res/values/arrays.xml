@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="settings">
+        <item>网络连接</item>
+        <item>安全设置</item>
+        <item>偏好设置</item>
+        <item>系统更新</item>
+        <item>系统重置</item>
+        <item>设备信息</item>
+    </string-array>
+
+    <string-array name="network">
+        <item>WIFI连接</item>
+        <item>蓝牙连接</item>
+        <item>移动数据</item>
+    </string-array>
+
+    <string-array name="safe">
+        <item>锁屏密码</item>
+        <item>离腕锁屏</item>
+    </string-array>
+
+    <string-array name="preferences">
+        <item>  息屏时间</item>
+        <item>  日程提醒</item>
+        <item>  久坐提醒</item>
+        <item>  常亮微光</item>
+        <item>  点击亮屏</item>
+        <item>  抬手亮屏</item>
+        <item>手机离身提醒</item>
+        <item>  陌生拦截</item>
+        <item>  省电模式</item>
+    </string-array>
+
+    <string-array name="communication">
+        <item>通讯服务</item>
+        <item>移动数据</item>
+    </string-array>
+</resources>

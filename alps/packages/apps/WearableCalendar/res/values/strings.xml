@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="previous">Go to previous</string>
+    <string name="next">Go to next</string>
+    <string name="calendar">Calendar</string>
+
+    <string-array name="weeklable">
+        　　
+        <item>日</item>
+        　　
+        <item>一</item>
+        　　
+        <item>二</item>
+        　　
+        <item>三</item>
+        　　
+        <item>四</item>
+        　　
+        <item>五</item>
+        　　
+        <item>六</item>
+        　　
+    </string-array>
+</resources>

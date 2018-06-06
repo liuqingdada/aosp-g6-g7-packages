@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mstarc.g6.watchface">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:debuggable="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+     <!--   <service
+            android:name=".DiaryWatchFace"
+            android:label="@string/watchface_diary"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/diary" />
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+
+                <category android:name="com.mstarc.wearable.category.WATCH_FACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>-->
+        <service
+            android:name=".TriangleWatchFace"
+            android:label="@string/watchface_triangle"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/triangle" />
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+
+                <category android:name="com.mstarc.wearable.category.WATCH_FACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+  <!--      <service
+            android:name=".Y3WatchFace"
+            android:label="@string/watchface_y3"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/y3" />
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+
+                <category android:name="com.mstarc.wearable.category.WATCH_FACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>-->
+        <service
+            android:name=".GoldWatchFace"
+            android:label="@string/watchface_gloden"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/golden" />
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+
+                <category android:name="com.mstarc.wearable.category.WATCH_FACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".BluerideWatchFace"
+            android:label="@string/watchface_blueride"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/blueride" />
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+
+                <category android:name="com.mstarc.wearable.category.WATCH_FACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".LightBlueWatchFace"
+            android:label="@string/watchface_lightblue"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/lightblue" />
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+
+                <category android:name="com.mstarc.wearable.category.WATCH_FACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".BlackGoldWatchFace"
+            android:label="@string/watchface_blackgold"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/blackgold" />
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+
+                <category android:name="com.mstarc.wearable.category.WATCH_FACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".DongganWatchFace"
+            android:label="@string/watchface_donggan"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/donggan" />
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+
+                <category android:name="com.mstarc.wearable.category.WATCH_FACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

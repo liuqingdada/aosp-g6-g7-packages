@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="wave">
+        <attr name="wave_speed" format="integer" />
+        <attr name="wave_height" format="integer" />
+        <attr name="wave_frequency" format="integer" />
+        <attr name="wave_color" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CustomScrollbarRecyclerView">
+        <attr name="marginleft" format="dimension" />
+        <attr name="margintop" format="dimension" />
+        <attr name="marginright" format="dimension" />
+        <attr name="marginbottom" format="dimension" />
+    </declare-styleable>
+</resources>

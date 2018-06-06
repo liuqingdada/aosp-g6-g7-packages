@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/sim_nocard_g7_rose"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@drawable/simsig0"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@drawable/simsig1_g7_rose"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@drawable/simsig2_g7_rose"
+        android:maxLevel="3" />
+    <item
+        android:drawable="@drawable/simsig3_g7_rose"
+        android:maxLevel="4" />
+    <item
+        android:drawable="@drawable/simsig4_g7_rose"
+        android:maxLevel="5" />
+</level-list>

@@ -1,0 +1,116 @@
+整体编译：
+1. 配置jdk7.0
+    用户目录下编写配置文件
+    .bashrc
+    .bashrc1.7
+
+        export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+        export JRE_HOME=$JAVA_HOME/jre
+        export CLASSPATH=$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
+        export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+        export PATH=/data/netuser2/bin:$PATH
+        
+    然后执行
+        source  xxx
+        echo    xxx
+2.编译步骤
+./mstarc_mtk2601/choose.sh g7 / (g7 g7_2black)   ---如果是g6+就选g6+
+source build/envstep.sh
+lunch
+make -j4
+
+常用命令
+croot
+jgrep
+cgrep
+resgrep
+
+----------------------
+编译mstarc.policy.jar:
+mstarc_library
+repo sync -j4
+mm -B
+
+常用命令
+repo sync . -cj4        repo upload .
+
+repo branch
+git reset
+repo abandon 0722
+repo sync . -c
+repo start 0722 --all
+
+----------------------
+编译系统源码工程
+
+如果修改了工程的mk文件那么此文件不要提交
+mk文件编译是常常修改不同的资源文件配置
+
+链接到AS
+ln -s xxx xxx
+
+sourceSet{
+    main{
+        jniLibs.srcDirs = ['libs']
+        res.srcDirs = ['src/main/g6_res']
+    }
+}
+
+as编辑完成后提交代码
+代码树同步代码验证一下代码的正确性, 从gerrit上下载代码cherry pick: git fetch...
+然后编译工程打包成apk替换到腕表下kill对应进程
+确认正确后合并代码
+
+----------------------
+提交Apk以及源码
+as编译apk替换到腕表下
+确认正确提交apk以及源码并合并
+
+----------------------
+提交代码树
+步骤：
+git reset --hard HEAD
+git clean -df
+repo start <branch> --all
+git status -s
+git add .
+git commit -m "<commit message>"
+repo upload .
+分支删除： repo abandon
+
+----------------------
+第一次编译
+sudo apt-get install bison libc6-dev-amd64 g++-multilib zlib1g-dev lib64z1-dev flex libncurses5-dev libx11-dev gperf 
+
+apt-get  install libxml2-utils
+
+apt-get install gperf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

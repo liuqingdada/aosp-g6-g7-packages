@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/main_highlight_g7_rose" />
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape android:shape="ring" android:thicknessRatio="10" android:useLevel="false">
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</selector>

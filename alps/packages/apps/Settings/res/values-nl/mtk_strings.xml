@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">Instellingen voor hotspot en tethering</string>
+    <string name="tethered_ipv4v6">(IPv6 beschikbaar)</string>
+    <string name="tethered_ipv6">(Alleen IPv6 beschikbaar)</string>
+    <string name="tethered_ipv4">(IPv6 niet beschikbaar)</string>
+    <string name="bluetooth_advanced_settings">"Geavanceerde instellingen"</string>
+    <string name="eap_sim_aka_airplanemode">Schakel de Vliegtuigmodus uit om EAP-SIM/AKA te gebruiken</string>
+    
+    <string name="eap_sim_aka_no_sim_error">U moet een SIM-kaart plaatsen om EAP-SIM/AKA te gebruiken</string>	
+    
+    <string name="eap_sim_aka_no_sim_slot_selected">U moet een SIM-sleuf selecteren om EAP-SIM/AKA te gebruiken</string>
+	<string name="sim_slot">SIM-sleuf</string>
+    
+    <string name="wapi_user_certificate">Gebruikerscertificaat</string>	
+	
+    <string name="wapi_as_certificate">ASE-certificaat</string> 
+     
+    <string name="wifi_hex_password">Hexadecimaal wachtwoord</string>
+    
+    <string name="wifi_no_cert_for_wapi">Kan geen certificatie voor huidige verbonden AP vinden</string>
+    
+    
+    <string name="wifi_security_wapi_certificate">WAPI-certificaat</string>
+		
+</resources>

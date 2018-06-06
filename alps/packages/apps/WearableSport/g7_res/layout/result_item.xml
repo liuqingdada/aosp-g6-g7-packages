@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:minWidth="320dp"
+    android:minHeight="43dp"
+    android:layout_height="70dp">
+
+    <TextView
+        android:id="@+id/sport_progress_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:text="@string/sport_progress_item_bushu"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/sport_progress_item_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sport_progress_zero"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/sport_progress_item_danwei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="212dp"
+        android:text="@string/sport_progress_item_qianka"
+        android:textSize="26sp" />
+
+</RelativeLayout>

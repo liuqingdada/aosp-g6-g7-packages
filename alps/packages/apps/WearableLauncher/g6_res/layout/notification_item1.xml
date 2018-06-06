@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mstarc.wearablelauncher.view.notification.SwipeRevealLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="78dp"
+    app:dragEdge="right"
+    android:paddingBottom="1dp"
+    android:paddingTop="1dp"
+    android:paddingRight="0dp"
+    app:modeSwipe="same_level">
+
+    <RelativeLayout
+        android:id="@+id/delete_layout"
+        android:layout_width="160dp"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="80dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_notification_delete"
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/deny_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="2dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_notification_deny"
+            android:gravity="center" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:id="@+id/notification_normal_view"
+        android:background="@drawable/ic_background_rect"
+        android:paddingTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/notification_item_icon"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:src="@drawable/ic_notification_message" />
+
+            <TextView
+                android:id="@+id/notification_item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:text="@string/notification_demo_date"
+                android:textColor="#c2c2c2"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/notification_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/notification_item_date"
+                android:layout_alignBottom="@+id/notification_item_date"
+                android:layout_marginEnd="20dp"
+                android:layout_toStartOf="@+id/notification_item_date"
+                android:text="@string/notification_demo_time"
+                android:textColor="#c2c2c2"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/notification_item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="@string/notification_content_demo"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+</com.mstarc.wearablelauncher.view.notification.SwipeRevealLayout>

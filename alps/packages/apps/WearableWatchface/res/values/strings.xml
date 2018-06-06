@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AnologClockWatchFace</string>
+    <string name="mstarc_analog_name">模拟时钟</string>
+    <string name="analog_name">AnologClock</string>
+    <string name="digital_name">DigitalClock</string>
+    <string name="digital_am">AM</string>
+    <string name="digital_pm">PM</string>
+</resources>

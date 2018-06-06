@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">WearableLauncher</string>
+
+    <string-array name="settinglist">
+        <item>通话</item>
+        <item>短信</item>
+        <item>微信</item>
+        <item>运动</item>
+        <item>支付宝</item>
+        <item>导航</item>
+        <item>录音</item>
+        <item>收音机</item>
+        <item>音乐</item>
+        <item>天气</item>
+        <item>日历</item>
+        <item>心率</item>
+        <item>设置</item>
+    </string-array>
+    <!--Detail settings first screen-->
+    <string name="setting_detail_network">网络设置</string>
+    <string name="setting_detail_time">时间设置</string>
+    <string name="setting_detail_security">安全设置</string>
+    <string name="setting_detail_preference">偏好设置</string>
+    <string name="setting_detail_update">系统更新</string>
+    <string name="setting_detail_reset">系统重置</string>
+    <string name="setting_detail_about">关于</string>
+
+    <!--Detail settings second screen-->
+    <string name="setting_detail_network_wifi">WIFI连接</string>
+    <string name="setting_detail_network_communicate">通讯设置</string>
+    <string name="setting_detail_network_bluetooth">蓝牙连接</string>
+    <string name="setting_detail_security_password">服务密码</string>
+    <string name="setting_detail_security_offline_lock">离腕锁屏</string>
+    <string name="setting_detail_preference_push">隐私推送</string>
+    <string name="setting_detail_preference_weak_light">常亮微光</string>
+    <string name="setting_detail_preference_knock_open_screen">点击亮屏</string>
+    <string name="setting_detail_preference_voice">语音播报</string>
+    <string name="setting_detail_preference_screen_timeout">亮屏时间</string>
+    <string name="setting_detail_preference_language">语言设置</string>
+    <string name="setting_detail_update_version">版本更新</string>
+    <string name="setting_detail_update_current_version">当前版本信息</string>
+    <string name="setting_detail_update_switch_version">切换版本</string>
+    <string name="setting_detail_about_product_name">产品名称</string>
+    <string name="setting_detail_about_version">版本</string>
+    <string name="setting_detail_about_deviceid">设备ID</string>
+    <string name="setting_detail_about_serrial_number">序列号</string>
+    <string name="setting_detail_about_imei">IMEI</string>
+    <string name="setting_detail_about_ram">内存</string>
+    <string name="setting_detail_about_tourial">使用教程</string>
+
+    <!--Detail settings third screen-->
+    <string name="setting_detail_preference_voice_weather">天气播报</string>
+    <string name="setting_detail_preference_voice_sms">短信播报</string>
+    <string name="setting_detail_preference_voice_navigator">导航播报</string>
+    <string name="notification_content_demo">林总，客户等着要报价请尽快将报价发给我</string>
+
+    <string name="quicksetting1">QS1</string>
+    <string name="quicksetting2">QS2</string>
+    <string name="qs3_demo_qingdao">青岛</string>
+    <string name="qs3_demo_date">03-04</string>
+    <string name="qs3_demo_week">周六</string>
+    <string name="qs3_demo_jieqi">谷雨</string>
+    <string name="qs3_demo_wendu">20</string>
+    <string name="qs3_demo_kongqi">78</string>
+    <string name="qs3_demo_kongqi_zhiliang">优</string>
+    <string name="qs3_demo_feng">南风</string>
+    <string name="qs3_demo_feng_jibie">3-4</string>
+    <string name="qs3_demo_feng_jibieji">级</string>
+    <string name="leftboard_alipay_time_demo">12:00</string>
+    <string name="leftboard_alipay_title_demo0">收银员扫一扫完成付款</string>
+    <string name="leftboard_alipay_title_demo1">银行1</string>
+    <string name="leftboard_alipay_title_demo2">银行2</string>
+
+    <string name="qs1_watch_battery">53%</string>
+    <string name="qs1_phone_battery">10%</string>
+    <string name="notification_demo_time">09:36</string>
+    <string name="notification_demo_date">03/04</string>
+    <string name="notification_clean_up">清空信息？</string>
+    <string name="notification_no_message">无通知</string>
+    <string name="qs1_watchmode_swtich">是否切换到手环模式？</string>
+    <string name="qs1_flightmode_swtich">是否切换到飞行模式？</string>
+    <string name="qs1_normalmode_swtich">是否切换到正常模式？</string>
+    <string name="watchface_preview_demo">预览</string>
+    <string name="alipay_bound">绑定</string>
+    <string name="alipay_bound_hint">您还未绑定支付宝。</string>
+    <string name="no_weather_data">无天气数据</string>
+    <!--FTE-->
+    <string name="fte_qr_promotion">请使用喵星助手APP扫描二维码\n绑定手表</string>
+    <string name="fte_qr_text">请扫描二维码绑定</string>
+    <string name="fte_app_promotion">请在【喵星手表】应用中设置相关信息</string>
+    <string name="fte_input_pw">请绘制密码</string>
+    <string name="fte_input_pw_again">请再次绘制密码</string>
+    <string name="fte_pw_success">密码绘制成功</string>
+    <string name="fte_data_sync">同步中…</string>
+    <string name="fte_pw_short_promotion">密码过短</string>
+    <string name="fte_pw_error_promotion">两次输入不一致，请重新输入</string>
+    
+    <string name="fte_application_install_confirm">请确认将要绑定的手机\n是否已经安装\n【喵星手表】应用</string>
+    <string name="fte_application_has_install">已安装</string>
+    <string name="fte_application_not_install">未安装</string>
+    <string name="fte_qr_promotion_install">请登录【喵星手表】应用\n扫描二维码进行绑定</string>
+   <string name="fte_qr_promotion_not_install_1">使用微信扫描二维码下载【喵星手表】应用,然后登录【喵星手表】应用,再次扫描二维码进行绑定。</string>
+    <string name="fte_qr_promotion_not_install_2"></string>
+    <string name="fte_qr_install_text">请扫描安装并绑定</string>
+
+    <!--power-->
+    <string name="power_reboot">重启</string>
+    <string name="power_reboot_promtion">确定重启?</string>
+    <string name="power_off">关机</string>
+    <string name="power_off_promtion">确定关机?</string>
+    <string name="power_factoryreset">系统重置</string>
+    <string name="power_factoryreset_promotion">重置将清除数据\n确定重置手表?</string>
+    <string name="power_exit_watch_mode">退出手环模式</string>
+    <string name="power_exit_watch_mode_promtion">确定退出\n手环模式?</string>
+    <!--Smart-->
+    <string name="smart_demo">18:30准备去深圳机场返回青岛总公司...</string>
+    <string name="smart_demo_pay_mony">-2.00</string>
+    <string name="smart_demo_pay_success">支付成功</string>
+    <string name="smart_demo_pay_yule">余额 : </string>
+    <string name="smart_demo_pay_yule_mony">138.23</string>
+    <string name="smart_demo_forget">您的手机不在身边</string>
+    <string name="smart_demo_heshui">请喝点水吧</string>
+    <string name="smart_demo_lpower">电量不足20%\n请及时充电</string>
+    <string name="smart_demo_lpower_10">电量不足10%\n将进入手环模式</string>
+    <string name="smart_demo_jiuzuo">您已经坐45分钟了,起来活动一下吧</string>
+    <string name="smart_demo_shengri">亲爱的\n生日快乐!</string>
+    <string name="smart_demo_shengri2">亲爱的\\n记得吃感冒药!</string>
+    <!--battery-->
+    <string name="charge_time_demo">20:26</string>
+    <string name="charge_percent_demo">50%</string>
+    <string name="str_nosim">无SIM卡</string>
+    <string name="flight_mode_setting_notify">当前为飞行模式， 请转到正常模式下使用</string>
+    <string name="notification_deny_confirm">关闭提醒后此应用将不再推送消息到通知栏。</string>
+    <string name="watchface_fte_promotion1">点击</string>
+    <string name="watchface_fte_promotion2">更换表盘</string>
+    <string name="bt_unconnect">未连接</string>
+    <string name="bt_connected">已连接</string>
+
+    <string name="watchface_first_1">恭喜您！</string>
+    <string name="watchface_first_2">您已经初步了解手表\n操作，请继续体验。</string>
+
+
+
+</resources>

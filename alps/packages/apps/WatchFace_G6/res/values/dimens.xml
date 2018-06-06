@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">20sp</dimen>
+    <!--center x-->
+    <dimen name="battery_center_x">96dp</dimen>
+    <!--baseline-->
+    <dimen name="battery_base_line">90dp</dimen>
+    <!--center x-->
+    <dimen name="step_center_x">64dp</dimen>
+    <!--baseline-->
+    <dimen name="step_text_baseline">216dp</dimen>
+
+</resources>

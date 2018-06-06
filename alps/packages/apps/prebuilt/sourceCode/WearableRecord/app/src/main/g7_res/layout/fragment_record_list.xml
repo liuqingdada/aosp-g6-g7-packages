@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mstarc.record.wearablerecorder.view.CustomScrollbarRecyclerView
+        android:id="@+id/record_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="8dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarThumbVertical="@drawable/main_scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/main_scrollbar_tracker"
+        android:scrollbars="vertical"
+        android:translationZ="10dp"
+        android:verticalScrollbarPosition="left"
+        android:overScrollMode="never"
+        android:layout_marginTop="26dp"
+        app:marginleft="10dp"
+        app:margintop="38dp"
+        app:marginright="-10dp"
+        app:marginbottom="38dp">
+
+    </com.mstarc.record.wearablerecorder.view.CustomScrollbarRecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/no_record_tip"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/text_view_no_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/device_main_color"
+            android:text="@string/no_record"
+            android:textSize="28dp"/>
+    </LinearLayout>
+</FrameLayout>

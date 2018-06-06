@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mstarc.wearablesettings.activitys.ResetWatchActivity"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/color_selected_word"
+        android:textSize="30sp"
+        android:text="@string/reset_watch" />
+    <TextView
+        android:id="@+id/resetsystem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:textColor="@color/color_little_white"
+        android:visibility="gone"
+        android:textSize="28sp"
+        android:text="@string/reset_system" />
+
+    <ImageView
+        android:id="@+id/reset"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="reset"/>
+    <ImageView
+        android:id="@+id/imagesure"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="47dp"
+        android:onClick="sureClick"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/imagecancel"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="47dp"
+        android:onClick="cancelClick"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/model_selector_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.mstarc.wearablesport.view.TouchableLayout
+        android:id="@+id/selector_run_out_door"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector_background"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/run_out_door_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/run_out_door_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@+id/run_out_door_image"
+            android:clickable="false"
+            android:text="@string/sport_mode_buxing"
+            android:textSize="32sp" />
+    </com.mstarc.wearablesport.view.TouchableLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gray_divider" />
+
+    <com.mstarc.wearablesport.view.TouchableLayout
+        android:id="@+id/selector_run_indor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector_background"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/run_indor_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/run_indor_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@id/run_indor_image"
+            android:clickable="false"
+            android:text="@string/sport_mode_paobu"
+            android:textSize="32sp" />
+    </com.mstarc.wearablesport.view.TouchableLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gray_divider" />
+
+    <com.mstarc.wearablesport.view.TouchableLayout
+        android:id="@+id/selector_qixing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector_background"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/qixing_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/qixing_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@+id/qixing_image"
+            android:clickable="false"
+            android:text="@string/sport_mode_qixing"
+            android:textSize="32sp" />
+    </com.mstarc.wearablesport.view.TouchableLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">熱點與數據連線設定</string>
+    <string name="tethered_ipv4v6">（IPv6 可使用）</string>
+    <string name="tethered_ipv6">（只有 IPv6 可使用）</string>
+    <string name="tethered_ipv4">（IPv6不可使用）</string>
+    <string name="bluetooth_advanced_settings">"進階設定"</string>
+    <string name="eap_sim_aka_airplanemode">請關閉飛航模式以使用 EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_error">你必須插進SIM卡以使用EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">你必須選擇一個SIM插槽以使用 EAP-SIM/AKA</string>
+    <string name="sim_slot">SIM 插槽</string>
+    <string name="wapi_user_certificate">使用者認證</string>
+    <string name="wapi_as_certificate">ASE 證明</string>
+    <string name="wifi_hex_password">十六進制的密碼</string>
+    <string name="wifi_no_cert_for_wapi">無法在當前的AP連結找到認證</string>
+    <string name="wifi_security_wapi_certificate">WAPI驗證</string>
+</resources>

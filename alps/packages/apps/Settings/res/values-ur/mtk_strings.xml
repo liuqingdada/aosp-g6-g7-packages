@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">ہاٹ اسپاٹ اور ٹیتھرنگ کی ترتیبات</string>
+    <string name="tethered_ipv4v6">(IPv6 دستیاب)</string>
+    <string name="tethered_ipv6">(صرف IPv6 دستیاب)</string>
+    <string name="tethered_ipv4">(IPv6 دستیاب نہیں)</string>
+    <string name="bluetooth_advanced_settings">Bluetooth برتر ترتیبات</string>
+    <string name="eap_sim_aka_airplanemode">برائے مہربانی EAP-SIM/AKA استعمال کرنے کے لئے ہوائی جہاز وضع کو آن کریں</string>
+    <string name="eap_sim_aka_no_sim_error">آپ کو EAP-SIM/AKA استعمال کرنے کے لئے sim کارڈ داخل کرنے کی ضرورت ہے</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">آپ کو EAP-SIM/AKA استعمال کرنے کے لئے sim کا خانہ منتخب کرنے کی ضرورت ہے</string>
+    <string name="sim_slot">SIM خانہ</string>
+    <string name="wapi_user_certificate">صارف کی سند</string>
+    <string name="wapi_as_certificate">ASE کی سند</string>
+    <string name="wifi_hex_password">ہیکساڈیسیمل پاس ورڈ</string>
+    <string name="wifi_no_cert_for_wapi">APN کو ٹیتھرنگ کے لیے ترتیب دیں</string>
+    <string name="wifi_security_wapi_certificate">WAPI سند</string>
+</resources>

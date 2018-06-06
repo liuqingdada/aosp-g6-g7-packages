@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+
+</resources>

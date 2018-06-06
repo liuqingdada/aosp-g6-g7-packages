@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/lightblue_ambient_battery_v_01" android:maxLevel="1"/>
+    <item android:drawable="@drawable/lightblue_ambient_battery_v_02" android:maxLevel="2"/>
+    <item android:drawable="@drawable/lightblue_ambient_battery_v_03" android:maxLevel="3"/>
+    <item android:drawable="@drawable/lightblue_ambient_battery_v_04" android:maxLevel="4"/>
+    <item android:drawable="@drawable/lightblue_ambient_battery_v_05" android:maxLevel="5"/>
+</level-list>

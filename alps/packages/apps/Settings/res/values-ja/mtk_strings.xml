@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">アクセスポイント＆テザリング設定</string>
+    <string name="tethered_ipv4v6">（IPv6利用可能）</string>
+    <string name="tethered_ipv6">（IPv6のみ利用可能）</string>
+    <string name="tethered_ipv4">（IPv6利用不可能）</string>
+    <string name="bluetooth_advanced_settings">"詳細設定"</string>
+    <string name="eap_sim_aka_airplanemode">EAP-SIM/AKAを使用する場合は機内モードをOFFにしてください</string>
+    <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKAを使用する場合はSIMカードを挿入する必要があります</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKAを使用する場合はSIMスロットを利用する必要があります</string>
+    <string name="sim_slot">SIMスロット</string>
+    <string name="wapi_user_certificate">"ユーザー証明書"</string>
+    <string name="wapi_as_certificate">ASE証明書</string>
+    <string name="wifi_hex_password">16進数のパスワードです。</string>
+    <string name="wifi_no_cert_for_wapi">現在接続しているAPの認証が見つかりません</string>
+    <string name="wifi_security_wapi_certificate">WAPI証明書</string>
+</resources>

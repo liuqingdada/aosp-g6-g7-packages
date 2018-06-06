@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgound">#000</color>
+    <color name="backgound_selected">#393635</color>
+    <color name="colorSettingDivider">#2A2724</color>
+
+    <color name="enls_default_list_background">#0000</color>
+    <color name="enls_default_selection_view_background">#0000</color>
+
+    <color name="main_highlight_g6">#E7C171</color>
+    <color name="main_highlight_g7_rose">#FF1D79</color>
+    <color name="main_highlight_g7_high_black">#F2D34E</color>
+    <color name="main_highlight_g7_apple">#AFFF00</color>
+    <color name="g7">#FF1d79</color>
+    <color name="white">#ffffff</color>
+
+</resources>

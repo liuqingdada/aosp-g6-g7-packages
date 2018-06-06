@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WearableMusic</string>
+    <string name="music_play_loop_all">循环播放</string>
+    <string name="music_play_loop_one">单曲循环</string>
+    <string name="music_play_shuffle">随机播放</string>
+    <string name="music_play_order">顺序播放</string>
+    <string name="new_record">新建录音</string>
+    <string name="no_record">无音乐数据</string>
+    <string name="clear_record">清空音乐？</string>
+    <string name="playing_record">请先关闭录音在播放</string>
+    <string name="demo_name">无音乐数据!</string>
+    <string name="demo_time">0:00</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

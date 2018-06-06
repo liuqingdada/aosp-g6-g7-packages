@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="20%p" android:keyHeight="@dimen/key_height"
+	android:horizontalGap="0.0px" android:verticalGap="0.0px"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<Row android:keyWidth="20%p">
+		<Key android:codes="39" android:keyEdgeFlags="left"
+			android:keyLabel="'" />
+		<Key android:codes="34" android:keyLabel="&quot;" />
+		<Key android:codes="94" android:keyLabel="^" />
+		<Key android:codes="38" android:keyLabel="&amp;" />
+		<Key android:codes="124" android:keyLabel="|" android:keyEdgeFlags="right"/>
+	</Row>
+	<Row android:keyWidth="14.45%p">
+		<Key android:keyEdgeFlags="left" android:codes="91" android:keyLabel="[" />
+		<Key android:codes="93" android:keyLabel="]" />
+		<Key android:codes="60" android:keyLabel="&lt;" />
+		<Key android:codes="62" android:keyLabel="&gt;" />
+		<Key android:codes="123" android:keyLabel="{" />
+		<Key android:codes="125" android:keyLabel="}" android:keyEdgeFlags="right" />
+	</Row>
+	<Row android:keyWidth="14.45%p">
+		<Key android:codes="36" android:keyLabel="$"  android:keyEdgeFlags="left"/>
+		<Key android:codes="37" android:keyLabel="%" />
+		<Key android:codes="42" android:keyLabel="*" />
+		<Key android:codes="126" android:keyLabel="～" />
+		<Key android:codes="9527"
+			android:keyEdgeFlags="right" android:isRepeatable="true" android:horizontalGap="30dp"
+			android:keyIcon="@mipmap/lastpage" />
+	</Row>
+	<Row android:rowEdgeFlags="bottom">
+		<Key android:keyWidth="33.333333%p" android:codes="-2" android:keyLabel="abc" />
+		<Key android:keyWidth="33.333334%p" android:codes="32"
+			android:isRepeatable="true" android:keyIcon="@mipmap/space" />
+		<Key android:keyWidth="33.333333%p" android:codes="-5"
+			android:keyEdgeFlags="right" android:isRepeatable="true"
+			android:keyIcon="@mipmap/delete" /> />
+	</Row>
+</Keyboard>

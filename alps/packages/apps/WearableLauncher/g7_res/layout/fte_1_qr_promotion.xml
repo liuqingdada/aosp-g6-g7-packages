@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!--<TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/fte_qr_promotion"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="@android:color/white" />-->
+
+    <RelativeLayout
+        android:id="@+id/confirm_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="66dp"
+            android:gravity="center_horizontal"
+            android:text="@string/fte_application_install_confirm"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp">
+
+            <TextView
+                android:id="@+id/text_install"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="19dp"
+                android:background="@drawable/application_confirm_layout"
+                android:gravity="center"
+                android:text="@string/fte_application_has_install"
+                android:textColor="@color/main_highlight"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/text_not_install"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="19dp"
+                android:background="@drawable/application_confirm_layout"
+                android:gravity="center"
+                android:text="@string/fte_application_not_install"
+                android:textColor="@color/main_highlight"
+                android:textSize="30sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/app_has_install_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="66dp"
+            android:gravity="center_horizontal"
+            android:text="@string/fte_qr_promotion_install"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/install_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="57dp"
+            android:src="@drawable/power_confirm_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/app_not_install_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/info_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="@string/fte_qr_promotion_not_install_1"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_1"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:text="@string/fte_qr_promotion_not_install_2"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/no_install_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="23dp"
+            android:src="@drawable/power_confirm_selector" />
+    </RelativeLayout>
+</FrameLayout>

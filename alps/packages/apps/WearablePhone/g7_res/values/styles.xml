@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:windowSwipeToDismiss">true</item>
+    </style>
+
+    <style name="InCall" parent="AppTheme">
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeRoseGolden" parent="AppTheme">
+        <item name="themecolor">@color/themecolor_rosegolden</item>
+    </style>
+
+    <style name="ThemeHighBlack" parent="AppTheme">
+        <item name="themecolor">@color/themecolor_highblack</item>
+    </style>
+
+    <style name="ThemeAppleGreen" parent="AppTheme">
+        <item name="themecolor">@color/themecolor_applegreen</item>
+    </style>
+
+
+    <style name="InCall_RoseGolden" parent="ThemeRoseGolden">
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+
+    <style name="InCall_HighBlack" parent="ThemeHighBlack">
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+
+    <style name="InCall_AppleGreen" parent="ThemeAppleGreen">
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+
+</resources>

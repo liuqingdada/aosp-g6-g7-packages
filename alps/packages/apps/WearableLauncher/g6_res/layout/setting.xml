@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mstarc.wearablelauncher.view.common.CustomScrollbarRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/setting_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:dividerHeight="0dp"
+    android:scrollbarSize="8dp"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbarThumbVertical="@drawable/main_scrollbar_thumb"
+    android:scrollbarTrackVertical="@drawable/main_scrollbar_tracker"
+    android:scrollbars="vertical"
+    android:translationZ="10dp"
+    android:overScrollMode="never"
+    app:marginleft="10dp"
+    app:margintop="38dp"
+    app:marginright="-10dp"
+    app:marginbottom="38dp"
+    android:verticalScrollbarPosition="left" />

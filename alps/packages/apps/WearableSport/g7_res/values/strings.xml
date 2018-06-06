@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">WearableSport</string>
+    <string name="sport_progress_time_demo">00:00:00</string>
+    <string name="sport_progress_heartbit_demo">0</string>
+    <string name="sport_progress_item_bushu">步数</string>
+    <string name="sport_progress_item_licheng">里程</string>
+    <string name="sport_progress_item_reliang">热量</string>
+    <string name="sport_progress_item_sudu">配速</string>
+    <string name="sport_progress_item_qianmi">Km</string>
+    <string name="sport_progress_item_qianka">KCal</string>
+    <string name="sport_progress_zero">0</string>
+    <string name="sport_mode_paobu">室内跑步</string>
+    <string name="sport_mode_buxing">户外跑步</string>
+    <string name="sport_mode_qixing">骑行</string>
+    <string name="sport_mode_env_huwai">户外</string>
+    <string name="sport_mode_env_shinei">室内</string>
+    <string name="sport_target_target">目标设定</string>
+    <string name="sport_target_gps">GPS</string>
+    <string name="sport_target_gps_close">关闭</string>
+    <string name="sport_target_lichengqianmi">里程/千米</string>
+    <string name="sport_target_shijianfen">时间/分</string>
+    <string name="sport_target_reliangqianka">热量/千卡</string>
+    <string name="sport_target_start">开始</string>
+    <string name="sport_scroll_1">1</string>
+    <string name="sport_scroll_2">2</string>
+    <string name="sport_scroll_3">3</string>
+    <string name="sport_target_demo">360</string>
+    <string name="sport_notification_title">运动</string>
+    <string name="sport_notification_content">运动正在进行</string>
+    <string name="switch_tip">若您需要运动轨迹\n请保持手表与手机\n蓝牙连接</string>
+
+
+
+</resources>

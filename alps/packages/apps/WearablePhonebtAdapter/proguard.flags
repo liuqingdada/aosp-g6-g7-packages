@@ -1,0 +1,6 @@
+-ignorewarnings
+
+-dontwarn
+
+-keep class com.mstarc.wearablephonebtadapter.RemoteService { *; }
+

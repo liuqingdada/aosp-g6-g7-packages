@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mstarc.wearablesettings.activitys.SettingsActivity"
+    android:background="@android:color/black">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="8dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:scrollbarTrackVertical="@drawable/main_scrollbar_tracker"
+        android:scrollbarThumbVertical="@drawable/main_scrollbar_thumb"
+        android:verticalScrollbarPosition="left"/>
+
+</RelativeLayout>

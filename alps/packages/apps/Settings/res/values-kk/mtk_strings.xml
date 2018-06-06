@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">Кіру орны және тетеринг параметрлері</string>
+    <string name="tethered_ipv4v6">(IPv6 протоколы қолжетімді)</string>
+    <string name="tethered_ipv6">(Тек IPv6 протоколы қолжетімді)</string>
+    <string name="tethered_ipv4">(IPv6 протоколы қолжетімсіз)</string>
+    <string name="bluetooth_advanced_settings">Қосымша параметрлер</string>
+    <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA пайдалану үшін, "Ұшақ режимін" өшіріңіз</string>
+    <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA пайдалану үшін, SIM картаны енгізу қажет</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA пайдалану үшін, SIM карта ұяшығын таңдау қажет</string>
+    <string name="sim_slot">SIM карта ұяшығы</string>
+    <string name="wapi_user_certificate">Пайдаланушы сертификаты</string>
+    <string name="wapi_as_certificate">ASE сертификаты</string>
+    <string name="wifi_hex_password">Он алтылық құпия сөз.</string>
+    <string name="wifi_no_cert_for_wapi">Ағымдағы қатынас орнының сертификатын анықтау мүмкін емес</string>
+    <string name="wifi_security_wapi_certificate">WAPI сертификаты</string>
+</resources>

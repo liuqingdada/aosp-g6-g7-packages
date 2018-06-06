@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </android.support.v4.view.ViewPager>
+
+    <com.mstarc.record.wearablerecorder.view.CircleIndicator
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="8dp"
+        app:ci_height="10dp"
+        app:ci_margin="10dp"
+        app:ci_width="10dp" />
+</RelativeLayout>

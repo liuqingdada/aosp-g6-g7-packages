@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.mstarc.wearablephonebtadapter">
+
+    <application
+        android:label="wearablephonebtadapter">
+        <service android:name=".RemoteService"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+
+</manifest>

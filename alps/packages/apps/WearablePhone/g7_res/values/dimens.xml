@@ -1,0 +1,6 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="scrollbar_margin_left_setting">10dp</dimen>
+    <dimen name="scrollbar_margin_left_notification">6dp</dimen>
+    <dimen name="notification_icon_size">64dp</dimen>
+</resources>

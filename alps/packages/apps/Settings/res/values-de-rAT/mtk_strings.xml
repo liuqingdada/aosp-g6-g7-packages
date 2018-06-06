@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tethered_ipv6_title">Hotspot- &amp; Tethering-Einstellungen</string>
+    <string name="tethered_ipv4v6">(IPv6 verfügbar)</string>
+    <string name="tethered_ipv6">(nur IPv6 verfügbar)</string>
+    <string name="tethered_ipv4">(IPv6 nicht verfügbar)</string>
+    <string name="bluetooth_advanced_settings">Erweiterte Einstellungen</string>
+    <string name="eap_sim_aka_airplanemode">Bitte schalten Sie zur EAP-SIM/AKA-Nutzung den Flugzeugmodus ab</string>
+    <string name="eap_sim_aka_no_sim_error">Zur EAP-SIM/AKA-Nutzung müssen Sie eine SIM-Karte einlegen</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">Zur EAP-SIM/AKA-Nutzung müssen Sie einen SIM-Steckplatz wählen</string>
+    <string name="sim_slot">SIM-Steckplatz</string>
+    <string name="wapi_user_certificate">Benutzerzertifikat</string>
+    <string name="wapi_as_certificate">ASE-Zertifikat</string>
+    <string name="wifi_hex_password">Hexadezimalkennwort.</string>
+    <string name="wifi_no_cert_for_wapi">Keine Zertifizierung für derzeitige AP-Verbindung gefunden</string>
+    <string name="wifi_security_wapi_certificate">WAPI-Zertifikat</string>
+</resources>

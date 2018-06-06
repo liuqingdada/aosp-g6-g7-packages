@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/no_junkmessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/msg_no_message"
+        android:textColor="#fff"
+        android:textSize="25sp"/>
+
+    <com.mstarc.wearablemms.view.SwipeListView
+        xmlns:swipe="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lv_junkmms_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/ic_background"
+        android:overScrollMode="never"
+        android:scrollbarSize="8dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarThumbVertical="@drawable/main_scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/main_scrollbar_tracker"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="left"
+        swipe:swipeActionLeft="reveal"
+        swipe:swipeBackView="@+id/back"
+        swipe:swipeCloseAllItemsWhenMoveList="true"
+        swipe:swipeFrontView="@+id/front"
+        swipe:swipeMode="left"
+        swipe:swipeOffsetLeft="200dp"
+        swipe:swipeOpenOnLongPress="false"/>
+
+
+</RelativeLayout>

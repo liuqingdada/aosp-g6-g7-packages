@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">20sp</dimen>
+    <!--center x-->
+    <dimen name="battery_center_x">93dp</dimen>
+    <!--baseline-->
+    <dimen name="battery_base_line">94dp</dimen>
+    <!--center x-->
+    <dimen name="step_center_x">62dp</dimen>
+    <!--baseline-->
+    <dimen name="step_text_baseline">240dp</dimen>
+
+<!--diamond-->
+    <dimen name="diamond_step_text_size">22sp</dimen>
+    <dimen name="diamond_battery_text_size">16sp</dimen>
+    <!--center x-->
+    <dimen name="diamond_battery_center_x">128dp</dimen>
+    <!--baseline-->
+    <dimen name="diamond_battery_base_line">271dp</dimen>
+    <!--center x-->
+    <dimen name="diamond_step_center_x">128dp</dimen>
+    <!--baseline-->
+    <dimen name="diamond_step_text_baseline">240dp</dimen>
+
+    <dimen name="xuanli_data_text_size">22sp</dimen>
+    <dimen name="xuanli_minute_text_size">100sp</dimen>
+    <dimen name="xuanli_hour_text_size">46sp</dimen>
+</resources>

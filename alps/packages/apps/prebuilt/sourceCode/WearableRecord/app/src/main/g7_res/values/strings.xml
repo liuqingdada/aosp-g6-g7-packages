@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WearableRecorder</string>
+    <string name="record">录音</string>
+    <string name="new_record">新建录音</string>
+    <string name="no_record">无录音数据</string>
+    <string name="clear_record">清空录音？</string>
+    <string name="playing_record">请先关闭录音在播放</string>
+    <string name="demo_name">201700503-003</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="switch_tip">文件过多会影响体验\n请删除部分录音后再试</string>
+</resources>
